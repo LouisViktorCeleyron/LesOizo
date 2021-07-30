@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/DT_DialogueExample.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/DT_DialogueExample.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oizo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/oizo.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +215,7 @@
       <updated>1627158432606</updated>
       <workItem from="1627158489836" duration="2624000" />
       <workItem from="1627246624867" duration="4891000" />
-      <workItem from="1627296816537" duration="3202000" />
+      <workItem from="1627296816537" duration="4422000" />
     </task>
     <servers />
   </component>
