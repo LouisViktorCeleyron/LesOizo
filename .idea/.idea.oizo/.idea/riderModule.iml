@@ -31,6 +31,7 @@
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Developer/OneSkyLocalizationService" />
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Developer/PerforceSourceControl" />
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Developer/RenderDocPlugin" />
+    <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Developer/RiderLink" />
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Developer/SubversionSourceControl" />
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Developer/UObjectPlugin" />
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess" />
@@ -99,6 +100,7 @@
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Lumin/MagicLeapCamera" />
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Lumin/MagicLeapMedia" />
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Lumin/MagicLeapScreens" />
+    <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Marketplace/RiderSourceCodeAccess" />
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Media/AndroidCamera" />
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Media/AndroidMedia" />
     <content url="file://$MODULE_DIR$/../../../../../Engine/UE_4.23/Engine/Plugins/Media/AppleProResMedia" />

@@ -9,17 +9,22 @@
 
 #include "Editor/Blutility/Classes/EditorUtilityWidgetBlueprint.h"
 
-void UOizoBPEditorFuncLibrary::StartWidget(UWidgetBlueprint* Blueprint)
+UEditorUtilityWidget* UOizoBPEditorFuncLibrary::StartWidget(UWidgetBlueprint* Blueprint)
 {
 	if (Blueprint->GeneratedClass->IsChildOf(UEditorUtilityWidget::StaticClass()))
 	{
 		UEditorUtilityWidgetBlueprint* EditorWidget = static_cast<UEditorUtilityWidgetBlueprint*>(Blueprint);
 		if (EditorWidget)
 		{
-			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("It should spawn"));
 			UEditorUtilitySubsystem* EditorUtilitySubsystem = GEditor->GetEditorSubsystem<UEditorUtilitySubsystem>();
 			EditorUtilitySubsystem->SpawnAndRegisterTab(EditorWidget);
+			return   EditorWidget->GetCreatedWidget();
 		}
 	}
+	return nullptr;
+}
 
+bool UOizoBPEditorFuncLibrary::Modify(UObject* Object)
+{
+	return Object->Modify(true);
 }

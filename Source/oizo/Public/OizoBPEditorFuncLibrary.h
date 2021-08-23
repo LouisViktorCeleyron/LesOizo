@@ -6,7 +6,7 @@
 #include "Editor/Blutility/Classes/EditorUtilityWidget.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "UMGEditor/Public/WidgetBlueprint.h"
-
+#include "Editor/Blutility/Classes/EditorUtilityWidgetBlueprint.h"
 
 #include "OizoBPEditorFuncLibrary.generated.h"
 
@@ -19,5 +19,8 @@ class OIZO_API UOizoBPEditorFuncLibrary : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 	
 	UFUNCTION(BlueprintCallable)
-        static void StartWidget(UWidgetBlueprint* Blueprint);
+        static UEditorUtilityWidget* StartWidget(UWidgetBlueprint* Blueprint);
+	
+	UFUNCTION(BlueprintCallable)
+        static bool Modify(UObject* Object);
 };
