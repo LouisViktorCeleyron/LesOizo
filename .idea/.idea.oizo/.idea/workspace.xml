@@ -7,19 +7,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/riderModule.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_DialogueManager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_DialogueManager.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/DT_DialogueExample.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/DT_DialogueExample.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/DialogueTest_-_DialogueTest.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/DialogueTest_-_DialogueTest.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/S_Dialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/S_Dialogue.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Data/Dialogues/Test/DT_Test_2_1_Vishna-Marev.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Dialogues/Test/DT_Test_2_1_Vishna-Marev.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Data/Dialogues/Test/DT_Test_2_1_Vishna-Marev_ENGLISH.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Dialogues/Test/DT_Test_2_1_Vishna-Marev_ENGLISH.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Tools/BPU_LoadDialogue.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Tools/BPW_IMgoingtotrytosummonthis.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_W_Button_Dialogue_Window.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_W_Button_Dialogue_Window.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/TestDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/TestDialogue.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/maps/chato.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/chato.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oizo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/oizo.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +23,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/UMG/Public/Components/Button.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/UMG/Private/Components/Button.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Blutility/Public/EditorUtilitySubsystem.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UMGEditor/Public/WidgetBlueprint.h" root0="FORCE_HIGHLIGHTING" />
@@ -54,9 +48,9 @@
       <option value="$PROJECT_DIR$/Source/oizo/Public/DialogueTransition.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/DialogueTransition.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vmDZUxxhLDmv0zmRXXqLAZe5w5" />
@@ -397,7 +391,7 @@
       <workItem from="1627246624867" duration="4891000" />
       <workItem from="1627296816537" duration="4422000" />
       <workItem from="1629668881207" duration="7428000" />
-      <workItem from="1629716525446" duration="1056000" />
+      <workItem from="1629716525446" duration="3448000" />
     </task>
     <servers />
   </component>
