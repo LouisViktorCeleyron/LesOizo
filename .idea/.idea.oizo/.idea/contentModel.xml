@@ -37474,12 +37474,18 @@
           <e p="Private" t="Include">
             <e p="Dialogue" t="Include">
               <e p="DialogueNPC.cpp" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="Editor_DialogueNPC.cpp" t="Include" />
+              </e>
             </e>
             <e p="OizoBPEditorFuncLibrary.cpp" t="Include" />
           </e>
           <e p="Public" t="Include">
             <e p="Dialogue" t="Include">
               <e p="DialogueNPC.h" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="Editor_DialogueNPC.h" t="Include" />
+              </e>
             </e>
             <e p="OizoBPEditorFuncLibrary.h" t="Include" />
           </e>

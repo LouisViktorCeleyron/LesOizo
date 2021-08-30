@@ -24,13 +24,16 @@ USTRUCT(BlueprintType)
 struct FSentence
 {
 	GENERATED_BODY()
-public:	
+public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString content;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString characterName;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	FTransition transition;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FVector2D EditorPosition;
 };
 
 
@@ -41,6 +44,5 @@ class OIZO_API UDialogueNPC : public UPrimaryDataAsset
 
 	public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TArray<FSentence> sentences;	
-	
+	TArray<FSentence> sentences;
 };
