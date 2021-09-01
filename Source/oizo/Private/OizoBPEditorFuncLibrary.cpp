@@ -26,8 +26,5 @@ UEditorUtilityWidget* UOizoBPEditorFuncLibrary::StartWidget(UWidgetBlueprint* Bl
 
 bool UOizoBPEditorFuncLibrary::Modify(UObject* Object)
 {
-	/*
 	return Object->Modify(true);
-	*/
-	return false;
 }

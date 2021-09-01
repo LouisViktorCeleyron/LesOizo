@@ -6,17 +6,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_MyDrag.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_MyDrag.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_W_Button_Dialogue_Window.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_W_Button_Dialogue_Window.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_W_DialogueGraph.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_W_DialogueGraph.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/TestDialogue.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/maps/chato.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/chato.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -402,6 +396,7 @@
       <workItem from="1629668881207" duration="7428000" />
       <workItem from="1629716525446" duration="3448000" />
       <workItem from="1630328083353" duration="7007000" />
+      <workItem from="1630432794449" duration="1911000" />
     </task>
     <servers />
   </component>
