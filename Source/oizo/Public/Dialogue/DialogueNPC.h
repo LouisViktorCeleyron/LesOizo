@@ -10,7 +10,6 @@
  * 
  */
 
-
 USTRUCT(BlueprintType)
 struct FTransition
 {

@@ -37477,6 +37477,7 @@
               <e p="Editor" t="Include">
                 <e p="Editor_DialogueNPC.cpp" t="Include" />
               </e>
+              <e p="NPC_Dialogue_ButtonSentence.cpp" t="Include" />
             </e>
             <e p="OizoBPEditorFuncLibrary.cpp" t="Include" />
           </e>
@@ -37486,6 +37487,7 @@
               <e p="Editor" t="Include">
                 <e p="Editor_DialogueNPC.h" t="Include" />
               </e>
+              <e p="NPC_Dialogue_ButtonSentence.h" t="Include" />
             </e>
             <e p="OizoBPEditorFuncLibrary.h" t="Include" />
           </e>
