@@ -14,9 +14,19 @@ USTRUCT(BlueprintType)
 struct FTransition
 {
 	GENERATED_BODY()
-	public :
-        UPROPERTY(EditAnywhere, BlueprintReadOnly)
+public :
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int nextSentence;
+
+	FTransition()
+	{
+		nextSentence = -1;
+	}
+
+	FORCEINLINE FTransition(int NextSentence)
+	{
+		nextSentence = NextSentence;
+	}
 };
 
 USTRUCT(BlueprintType)
@@ -33,6 +43,17 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector2D EditorPosition;
+
+	FSentence()
+	{
+	}
+	FSentence(FString c, FString cn, FTransition t, FVector2D ep)
+	{
+		content =c;
+		characterName =cn;
+		transition =t;
+		EditorPosition = ep;
+	}
 };
 
 
@@ -41,7 +62,11 @@ class OIZO_API UDialogueNPC : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
 
-	public:
+public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TArray<FSentence> sentences;
+
+public:
+	UFUNCTION(BlueprintCallable)
+	void SetSentenceTransition(int sentenceIndex, FTransition transition);
 };

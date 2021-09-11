@@ -7,3 +7,8 @@ FSentence UNPC_Dialogue_ButtonSentence::GetSentenceContent() const
 {
 	return DialogueTarget->sentences[SentenceIndex];
 }
+
+void UNPC_Dialogue_ButtonSentence::IWannaDie()
+{
+	Destruct();
+}

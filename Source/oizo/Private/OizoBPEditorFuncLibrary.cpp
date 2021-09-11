@@ -28,3 +28,9 @@ bool UOizoBPEditorFuncLibrary::Modify(UObject* Object)
 {
 	return Object->Modify(true);
 }
+
+FSentence UOizoBPEditorFuncLibrary::MakeSentence(const FString content, const FString characterName,
+                                                 const FTransition transition, const FVector2D EditorPosition)
+{
+	return FSentence(content,characterName,transition,EditorPosition);
+}

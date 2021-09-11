@@ -2,3 +2,8 @@
 
 
 #include "DialogueNPC.h"
+
+void UDialogueNPC::SetSentenceTransition(int sentenceIndex, FTransition transition)
+{
+	sentences[sentenceIndex].transition =transition;
+}

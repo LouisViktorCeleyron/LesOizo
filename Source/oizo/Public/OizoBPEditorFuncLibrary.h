@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "NPC_Dialogue_ButtonSentence.h"
 #include "Editor/Blutility/Classes/EditorUtilityWidget.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "UMGEditor/Public/WidgetBlueprint.h"
@@ -23,4 +24,9 @@ class OIZO_API UOizoBPEditorFuncLibrary : public UBlueprintFunctionLibrary
 	
 	UFUNCTION(BlueprintCallable)
         static bool Modify(UObject* Object);
+	
+	UFUNCTION(BlueprintCallable,BlueprintPure)
+        static FSentence MakeSentence(const FString content, const FString characterName, const FTransition transition, const FVector2D EditorPosition);
 };
+
+

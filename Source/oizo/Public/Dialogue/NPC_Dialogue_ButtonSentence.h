@@ -10,7 +10,7 @@
 */
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FIntDelegate,int,Index);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FTransitionNPCDDelegate,FTransition,Transitoion);
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FTransitionNPCDDelegate,int,SentenceIndex);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FV2DintDelegate,FVector2D,Drag,int,SentenceIndex);
 
 UCLASS(Blueprintable)
@@ -35,5 +35,9 @@ class OIZO_API UNPC_Dialogue_ButtonSentence : public UUserWidget
     
 	public:
 	UFUNCTION(BlueprintCallable,BlueprintPure)
-    FSentence GetSentenceContent() const;    
+    FSentence GetSentenceContent() const;
+	UFUNCTION(BlueprintCallable)
+	void IWannaDie();
+
+	
 };
