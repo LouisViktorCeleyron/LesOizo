@@ -4,11 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
+#include "OizoEnumEditor.h"
 #include "DialogueNPC.generated.h"
 
-/**
- * 
- */
 
 USTRUCT(BlueprintType)
 struct FTransition
@@ -16,17 +14,9 @@ struct FTransition
 	GENERATED_BODY()
 public :
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int nextSentence;
-
-	FTransition()
-	{
-		nextSentence = -1;
-	}
-
-	FORCEINLINE FTransition(int NextSentence)
-	{
-		nextSentence = NextSentence;
-	}
+	TArray<int> nextSentences;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TEnumAsByte<EDialogueTransitionType> transitionType;
 };
 
 USTRUCT(BlueprintType)
@@ -35,9 +25,11 @@ struct FSentence
 	GENERATED_BODY()
 public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FString content;
+	FText content;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString characterName;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool isMainCharacter;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	FTransition transition;
 
@@ -47,11 +39,12 @@ public:
 	FSentence()
 	{
 	}
-	FSentence(FString c, FString cn, FTransition t, FVector2D ep)
+	FSentence(FText c, FString cn, FTransition t, bool imc, FVector2D ep)
 	{
 		content =c;
 		characterName =cn;
 		transition =t;
+		isMainCharacter = imc;
 		EditorPosition = ep;
 	}
 };
@@ -69,4 +62,6 @@ public:
 public:
 	UFUNCTION(BlueprintCallable)
 	void SetSentenceTransition(int sentenceIndex, FTransition transition);
+	UFUNCTION(BlueprintPure,BlueprintCallable)
+	FSentence GetSentence (int sentenceIndex);
 };

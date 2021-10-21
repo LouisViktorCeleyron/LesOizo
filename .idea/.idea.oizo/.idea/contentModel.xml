@@ -37490,6 +37490,7 @@
               <e p="NPC_Dialogue_ButtonSentence.h" t="Include" />
             </e>
             <e p="OizoBPEditorFuncLibrary.h" t="Include" />
+            <e p="OizoEnumEditor.h" t="Include" />
           </e>
         </e>
         <e p="oizo.Target.cs" t="Include" />

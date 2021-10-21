@@ -29,8 +29,14 @@ bool UOizoBPEditorFuncLibrary::Modify(UObject* Object)
 	return Object->Modify(true);
 }
 
-FSentence UOizoBPEditorFuncLibrary::MakeSentence(const FString content, const FString characterName,
-                                                 const FTransition transition, const FVector2D EditorPosition)
+FSentence UOizoBPEditorFuncLibrary::MakeSentence(const FText content, const FString characterName,
+                                                 const FTransition transition, const bool isMainChara, const FVector2D EditorPosition)
 {
-	return FSentence(content,characterName,transition,EditorPosition);
+	return FSentence(content,characterName,transition,isMainChara,EditorPosition);
+}
+
+void UOizoBPEditorFuncLibrary::SetSentenceElementInArray(UDialogueNPC* DialogueNPC, const FSentence newElement,
+	const int index)
+{
+	DialogueNPC->sentences[index] = newElement;
 }

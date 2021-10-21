@@ -7,3 +7,8 @@ void UDialogueNPC::SetSentenceTransition(int sentenceIndex, FTransition transiti
 {
 	sentences[sentenceIndex].transition =transition;
 }
+
+FSentence UDialogueNPC::GetSentence(int sentenceIndex)
+{
+	return sentences[sentenceIndex];
+}
