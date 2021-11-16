@@ -12,3 +12,8 @@ FSentence UDialogueNPC::GetSentence(int sentenceIndex)
 {
 	return sentences[sentenceIndex];
 }
+
+TArray<FSentence> UDialogueNPC::GetSentences()
+{
+	return sentences;
+}

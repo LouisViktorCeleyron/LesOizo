@@ -12,3 +12,9 @@ void UNPC_Dialogue_ButtonSentence::IWannaDie()
 {
 	Destruct();
 }
+
+void UNPC_Dialogue_ButtonSentence::UnbindDefaultSentenceBehaviour(int test)
+{
+	OnSentenceClick.Clear();
+	OnTransitionClick.Clear();
+}

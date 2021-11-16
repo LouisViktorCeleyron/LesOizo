@@ -64,4 +64,6 @@ public:
 	void SetSentenceTransition(int sentenceIndex, FTransition transition);
 	UFUNCTION(BlueprintPure,BlueprintCallable)
 	FSentence GetSentence (int sentenceIndex);
+	UFUNCTION(BlueprintPure,BlueprintCallable)
+	TArray<FSentence> GetSentences ();
 };
