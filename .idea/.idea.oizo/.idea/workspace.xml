@@ -7,11 +7,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPSC_NPCDialogueReader.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPSC_NPCDialogueReader.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_MainOiseau.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_MainOiseau.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NPC_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NPC_Character.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/TestDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/TestDialogue.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/NPC_Dialogue_ButtonSentence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/NPC_Dialogue_ButtonSentence.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/NPC_Dialogue_ButtonSentence.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/NPC_Dialogue_ButtonSentence.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/maps/chato.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/chato.umap" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,10 +64,10 @@
       <option value="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/IDialogueUI.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/DelegateBank.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/NPC_Dialogue_ButtonSentence.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/NPC_Dialogue_ButtonSentence.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vmDZUxxhLDmv0zmRXXqLAZe5w5" />
@@ -412,6 +415,8 @@
       <workItem from="1630673150635" duration="137000" />
       <workItem from="1630673323299" duration="33000" />
       <workItem from="1630673400090" duration="2483000" />
+      <workItem from="1637073838628" duration="1298000" />
+      <workItem from="1637247833739" duration="1247000" />
     </task>
     <servers />
   </component>
