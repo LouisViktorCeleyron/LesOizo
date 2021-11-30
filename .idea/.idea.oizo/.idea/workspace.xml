@@ -5,17 +5,7 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPSC_NPCDialogueReader.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPSC_NPCDialogueReader.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_MainOiseau.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_MainOiseau.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NPC_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NPC_Character.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/TestDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/TestDialogue.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/maps/chato.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/chato.umap" afterDir="false" />
-    </list>
+    <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -417,6 +407,7 @@
       <workItem from="1630673400090" duration="2483000" />
       <workItem from="1637073838628" duration="1298000" />
       <workItem from="1637247833739" duration="1247000" />
+      <workItem from="1637684331247" duration="823000" />
     </task>
     <servers />
   </component>
