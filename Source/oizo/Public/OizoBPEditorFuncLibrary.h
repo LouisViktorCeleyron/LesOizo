@@ -32,6 +32,10 @@ class OIZO_API UOizoBPEditorFuncLibrary : public UBlueprintFunctionLibrary
         static void SetSentenceElementInArray(UDialogueNPC* DialogueNPC, const FSentence newElement, const int index);
 
 	
+	UFUNCTION(BlueprintCallable)
+        static int GetNextSentence(FSentence sentence,int answer);
+
+	
 };
 
 

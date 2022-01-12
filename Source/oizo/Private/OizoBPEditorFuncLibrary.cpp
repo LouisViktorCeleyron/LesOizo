@@ -40,3 +40,18 @@ void UOizoBPEditorFuncLibrary::SetSentenceElementInArray(UDialogueNPC* DialogueN
 {
 	DialogueNPC->sentences[index] = newElement;
 }
+
+int UOizoBPEditorFuncLibrary::GetNextSentence(FSentence sentence,int answer)
+{
+	switch (sentence.transition.transitionType)
+	{
+		case SimpleTransition:
+			return 0;		
+		case WithAnswer:
+			return answer;						
+		case EndOfDialogue:
+			return 99;
+	}
+	
+	return 0;
+}

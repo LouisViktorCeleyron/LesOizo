@@ -17,3 +17,4 @@ TArray<FSentence> UDialogueNPC::GetSentences()
 {
 	return sentences;
 }
+

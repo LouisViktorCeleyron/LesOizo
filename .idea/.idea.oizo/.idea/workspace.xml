@@ -5,7 +5,14 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="" />
+    <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/maps/chato.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/chato.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,16 +55,16 @@
       <option value="$PROJECT_DIR$/Source/oizo/Public/DialogueTransition.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/DialogueTransition.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/Editor/Editor_DialogueNPC.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Editor/Editor_DialogueNPC.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/IDialogueUI.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/DelegateBank.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/NPC_Dialogue_ButtonSentence.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/NPC_Dialogue_ButtonSentence.cpp" />
-      <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vmDZUxxhLDmv0zmRXXqLAZe5w5" />
@@ -408,6 +415,7 @@
       <workItem from="1637073838628" duration="1298000" />
       <workItem from="1637247833739" duration="1247000" />
       <workItem from="1637684331247" duration="823000" />
+      <workItem from="1639776885311" duration="1892000" />
     </task>
     <servers />
   </component>
