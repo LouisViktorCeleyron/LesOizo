@@ -17,7 +17,9 @@ public class oizo : ModuleRules
 			"UnrealEd",
 			"Blutility",
 			"UMG",
-			"UMGEditor" });
+			"UMGEditor",
+			"AssetRegistry" 
+		});
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] { "Slate", "SlateCore" });

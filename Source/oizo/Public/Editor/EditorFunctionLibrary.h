@@ -16,7 +16,6 @@ class OIZO_API UEditorFunctionLibrary : public UBlueprintFunctionLibrary
 	GENERATED_BODY()
 
 public:
-	UFUNCTION(BlueprintCallable)
-		TArray<FString> ReturnAllStringTableKeys();
+
 	
 };
