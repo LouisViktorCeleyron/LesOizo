@@ -7,11 +7,14 @@
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/maps/chato.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/chato.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Anglais_exemple.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_FlaseBubble.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_FlaseBubble.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NPCDialogueLauncher.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NPCDialogueLauncher.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_TestEtAutre.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_TestEtAutre.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Dialogue_BdayGirl.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Dialogue_fish.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Dialogue_fish.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Français_exemple.uasset" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -416,6 +419,8 @@
       <workItem from="1637247833739" duration="1247000" />
       <workItem from="1637684331247" duration="823000" />
       <workItem from="1639776885311" duration="1892000" />
+      <workItem from="1646600985780" duration="56000" />
+      <workItem from="1646603647269" duration="1000" />
     </task>
     <servers />
   </component>
