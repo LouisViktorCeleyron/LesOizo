@@ -37493,6 +37493,7 @@
             <e p="Editor" t="Include">
               <e p="EditorFunctionLibrary.cpp" t="Include" />
               <e p="LocalizationEditorUtilities.cpp" t="Include" />
+              <e p="StructsForLocalization.cpp" t="Include" />
             </e>
             <e p="OizoBPEditorFuncLibrary.cpp" t="Include" />
           </e>
@@ -37507,6 +37508,7 @@
             <e p="Editor" t="Include">
               <e p="EditorFunctionLibrary.h" t="Include" />
               <e p="LocalizationEditorUtilities.h" t="Include" />
+              <e p="StructsForLocalization.h" t="Include" />
             </e>
             <e p="OizoBPEditorFuncLibrary.h" t="Include" />
             <e p="OizoEnumEditor.h" t="Include" />

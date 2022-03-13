@@ -9,10 +9,10 @@
 #include "Kismet/KismetStringTableLibrary.h"
 
 
-TArray<FString> ULocalizationEditorUtilities::ReturnAllStringTableKeys()
+TArray<FStringTableContainer> ULocalizationEditorUtilities::ReturnAllStringTableKeys()
 {
 	//var for the function
-	TArray<FString> _returnValue;
+	TArray<FStringTableContainer> _returnValue;
 
 	//Get Asset from folders
 	FAssetRegistryModule& AssetRegistryModule = FModuleManager::LoadModuleChecked<FAssetRegistryModule>("AssetRegistry");
@@ -25,8 +25,10 @@ TArray<FString> ULocalizationEditorUtilities::ReturnAllStringTableKeys()
 	//Get Key From StringTable asset
 	for (FAssetData data : AssetData)
 	{
-		auto _temp = UKismetStringTableLibrary::GetKeysFromStringTable(FName(*data.GetAsset()->GetPathName()));
-		_returnValue.Append(_temp);
+		auto _temp = FStringTableContainer();
+		_temp.StringTableID = FName(*data.GetAsset()->GetPathName());
+		_temp.Keys =  UKismetStringTableLibrary::GetKeysFromStringTable(_temp.StringTableID);
+		_returnValue.Add(_temp);		
 	}
 
 	return  _returnValue;

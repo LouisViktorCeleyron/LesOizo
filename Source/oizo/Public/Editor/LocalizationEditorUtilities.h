@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
+#include "StructsForLocalization.h"
 #include "AssetRegistry/Public/AssetRegistryModule.h"
 #include "LocalizationEditorUtilities.generated.h"
 /**
@@ -16,6 +17,6 @@ class OIZO_API ULocalizationEditorUtilities : public UBlueprintFunctionLibrary
 public:
 	GENERATED_BODY()
 
-	UFUNCTION(BlueprintCallable)
-	static TArray<FString> ReturnAllStringTableKeys();  
+	UFUNCTION(BlueprintCallable,BlueprintPure)
+	static TArray<FStringTableContainer> ReturnAllStringTableKeys();  
 };
