@@ -33,3 +33,8 @@ TArray<FStringTableContainer> ULocalizationEditorUtilities::ReturnAllStringTable
 
 	return  _returnValue;
 }
+
+const FString ULocalizationEditorUtilities::GetStringTablePath()
+{
+	return "/Game/Data/StringTables";
+}

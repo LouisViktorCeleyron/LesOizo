@@ -18,5 +18,7 @@ public:
 	GENERATED_BODY()
 
 	UFUNCTION(BlueprintCallable,BlueprintPure)
-	static TArray<FStringTableContainer> ReturnAllStringTableKeys();  
+	static TArray<FStringTableContainer> ReturnAllStringTableKeys();
+	UFUNCTION(BlueprintCallable,BlueprintPure)
+	static const FString GetStringTablePath();
 };

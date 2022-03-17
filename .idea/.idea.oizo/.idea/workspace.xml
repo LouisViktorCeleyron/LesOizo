@@ -8,12 +8,15 @@
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ComboBoxCustom.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ComboBoxCustom.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_TestEtAutre.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_TestEtAutre.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Data/Dialogues/Dialogue_BdayGirl.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Dialogues/Dialogue_BdayGirl.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Data/Dialogues/testDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Dialogues/testDialogue.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/maps/chato.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/chato.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Editor/LocalizationEditorUtilities.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Editor/LocalizationEditorUtilities.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Editor/LocalizationEditorUtilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Editor/LocalizationEditorUtilities.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oizo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/oizo.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,9 +75,10 @@
       <option value="$PROJECT_DIR$/Source/oizo/oizo.Build.cs" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/EditorFunctionLibrary.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Editor/EditorFunctionLibrary.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/StructsForLocalization.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/DialogueNPCEditor.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Editor/LocalizationEditorUtilities.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/LocalizationEditorUtilities.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/StructsForLocalization.h" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vmDZUxxhLDmv0zmRXXqLAZe5w5" />
@@ -434,6 +438,7 @@
       <workItem from="1646688954305" duration="4705000" />
       <workItem from="1647205777971" duration="2000" />
       <workItem from="1647206771684" duration="2553000" />
+      <workItem from="1647543108359" duration="1938000" />
     </task>
     <servers />
   </component>
