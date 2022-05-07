@@ -37496,6 +37496,7 @@
               <e p="LocalizationEditorUtilities.cpp" t="Include" />
               <e p="StructsForLocalization.cpp" t="Include" />
             </e>
+            <e p="MyTestActor.cpp" t="Include" />
             <e p="OizoBPEditorFuncLibrary.cpp" t="Include" />
           </e>
           <e p="Public" t="Include">
@@ -37512,11 +37513,24 @@
               <e p="LocalizationEditorUtilities.h" t="Include" />
               <e p="StructsForLocalization.h" t="Include" />
             </e>
+            <e p="MyTestActor.h" t="Include" />
             <e p="OizoBPEditorFuncLibrary.h" t="Include" />
             <e p="OizoEnumEditor.h" t="Include" />
           </e>
         </e>
         <e p="oizo.Target.cs" t="Include" />
+        <e p="oizoEditor" t="Include">
+          <e p="oizoEditor.Build.cs" t="Include" />
+          <e p="oizoEditorModuleInterface.h" t="Include" />
+          <e p="Private" t="Include">
+            <e p="DialogueNPCDataTypeAction.cpp" t="Include" />
+            <e p="oizoEditor.cpp" t="Include" />
+          </e>
+          <e p="Public" t="Include">
+            <e p="DialogueNPCDataTypeAction.h" t="Include" />
+            <e p="oizoEditor.h" t="Include" />
+          </e>
+        </e>
         <e p="oizoEditor.Target.cs" t="Include" />
       </e>
       <e p="Visualizers" t="Include" />

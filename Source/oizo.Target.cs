@@ -9,6 +9,6 @@ public class oizoTarget : TargetRules
 	{
 		Type = TargetType.Game;
 
-		ExtraModuleNames.AddRange( new string[] { "oizo", "AssetRegistry" } );
+		ExtraModuleNames.AddRange( new string[] { "oizo", "AssetRegistry","oizoEditor"  } );
 	}
 }

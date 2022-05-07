@@ -14,6 +14,14 @@
 				"UMG",
 				"Blutility"
 			]
+		},
+		{
+			"Name": "oizoEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [
+				"Engine"
+			]
 		}
 	],
 	"Plugins": [

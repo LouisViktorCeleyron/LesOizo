@@ -6,16 +6,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/oizoEditor/Private/DialogueNPCDataTypeAction.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/oizoEditor/Public/DialogueNPCDataTypeAction.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Source/oizoEditor/oizoEditorModuleInterface.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_ComboBoxCustom.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_ComboBoxCustom.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_TestEtAutre.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_TestEtAutre.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Data/Dialogues/Dialogue_BdayGirl.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Dialogues/Dialogue_BdayGirl.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Data/Dialogues/testDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Dialogues/testDialogue.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/maps/chato.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/chato.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Editor/LocalizationEditorUtilities.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Editor/LocalizationEditorUtilities.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Editor/LocalizationEditorUtilities.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Editor/LocalizationEditorUtilities.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo.Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo.Target.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor.Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizoEditor.Target.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/oizo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/oizo.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,21 +33,28 @@
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Blutility/Public/EditorUtilitySubsystem.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Blutility/Classes/EditorUtilityWidgetBlueprint.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Blutility/Private/AssetTypeActions_EditorUtilityWidgetBlueprint.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UnrealEd/Public/Toolkits/AssetEditorToolkit.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/UMG/Private/Components/Button.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Public/Modules/ModuleManager.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/UMG/Public/Components/Button.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Public/Containers/Array.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Slate/Public/Framework/MultiBox/MultiBoxExtender.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/UMG/Public/Blueprint/UserWidget.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Public/Math/Vector2D.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/oizoEditor/oizoEditor.Build.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Public/Misc/Parse.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Developer/AssetTools/Public/AssetTypeCategories.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Developer/AssetTools/Public/AssetTypeActions_Base.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/LevelEditor/Public/LevelEditor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UMGEditor/Public/WidgetBlueprint.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Public/Internationalization/StringTable.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Private/KismetStringTableLibrary.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/Engine/DataAsset.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Slate/Public/Framework/Docking/TabManager.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Slate/Public/Framework/Docking/WorkspaceItem.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/Kismet/KismetStringTableLibrary.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Blutility/Classes/EditorUtilityWidget.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Blutility/Public/IBlutilityModule.h" root0="FORCE_HIGHLIGHTING" />
@@ -79,6 +84,18 @@
       <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/DialogueNPCEditor.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Editor/LocalizationEditorUtilities.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/LocalizationEditorUtilities.h" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor/oizoEditorModuleInterface.h" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor/oizo.Build.cs" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor/FoizoEditor.h" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor/FoizoEditor.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor/oizoEditor.Build.cs" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor/oizoEditor.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor/oizoEditor.h" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor/DialogueDataEditor/DialogueNPCDataTypeAction.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor/DialogueDataEditor/DialogueNPCDataTypeAction.h" />
+      <option value="$PROJECT_DIR$/oizo.uproject" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor.Target.cs" />
+      <option value="$PROJECT_DIR$/Source/oizo.Target.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vmDZUxxhLDmv0zmRXXqLAZe5w5" />
@@ -439,6 +456,10 @@
       <workItem from="1647205777971" duration="2000" />
       <workItem from="1647206771684" duration="2553000" />
       <workItem from="1647543108359" duration="1938000" />
+      <workItem from="1649707721290" duration="4603000" />
+      <workItem from="1649954915084" duration="117000" />
+      <workItem from="1649955483204" duration="13819000" />
+      <workItem from="1650031403456" duration="2774000" />
     </task>
     <servers />
   </component>
