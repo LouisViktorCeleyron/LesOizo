@@ -3,7 +3,7 @@
 
 #include "NPC_Dialogue_ButtonSentence.h"
 
-FSentence UNPC_Dialogue_ButtonSentence::GetSentenceContent() const
+USentence* UNPC_Dialogue_ButtonSentence::GetSentenceContent() const
 {
 	return DialogueTarget->sentences[SentenceIndex];
 }

@@ -25,17 +25,6 @@ class OIZO_API UOizoBPEditorFuncLibrary : public UBlueprintFunctionLibrary
 	UFUNCTION(BlueprintCallable)
         static bool Modify(UObject* Object);
 	
-	UFUNCTION(BlueprintCallable,BlueprintPure)
-        static FSentence MakeSentence(const FText content, const FString characterName, const FTransition transition,const bool isMainChara, const FVector2D EditorPosition);
-
-	UFUNCTION(BlueprintCallable)
-        static void SetSentenceElementInArray(UDialogueNPC* DialogueNPC, const FSentence newElement, const int index);
-
-	
-	UFUNCTION(BlueprintCallable)
-        static int GetNextSentence(FSentence sentence,int answer);
-
-	
 };
 
 
