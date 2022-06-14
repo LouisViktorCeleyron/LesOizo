@@ -22,7 +22,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsMainCharacter;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TArray<int> NextSentences;
+	TArray<USentence*> NextSentences;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector2D EditorPosition;
@@ -31,8 +31,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void IWannaDie();
 	UFUNCTION(BlueprintCallable)
-	virtual int GetNextSentence(int i = 0);
-	void UpdateSentence(TArray<int> nextSentences, bool isMainCharacter, FVector2D editorPosition);
+	virtual USentence* GetNextSentence(int i = 0);
+	void UpdateSentence(TArray<USentence*> nextSentences, bool isMainCharacter, FVector2D editorPosition);
+	void UpdateTransition(int transitionIndex, USentence* newTransition);
 };
 
 UCLASS(BlueprintType,Blueprintable)
@@ -40,8 +41,6 @@ class UClassicSentence : public USentence
 {
 public:
 	GENERATED_BODY()
-	UPROPERTY(BlueprintReadWrite)
-	FString labandeapicsou;
 	
 };
 
@@ -49,10 +48,9 @@ UCLASS(BlueprintType,Blueprintable)
 class UChoiceSentence : public USentence
 {
 public:
-	UPROPERTY(BlueprintReadWrite)
-	float banana;
-	virtual int GetNextSentence(int i) override;
 	GENERATED_BODY()
-public:
+public: 
+	virtual USentence* GetNextSentence(int i) override;
+
 	
 };

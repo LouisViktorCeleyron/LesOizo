@@ -7,7 +7,7 @@ USentence::USentence()
 {
 }
 
-void USentence::UpdateSentence( TArray<int> nextSentences, bool isMainCharacter,
+void USentence::UpdateSentence( TArray<USentence*> nextSentences, bool isMainCharacter,
 	FVector2D editorPosition)
 {
 	NextSentences = nextSentences;
@@ -15,18 +15,24 @@ void USentence::UpdateSentence( TArray<int> nextSentences, bool isMainCharacter,
 	EditorPosition = editorPosition;
 }
 
+void USentence::UpdateTransition(int transitionIndex, USentence* newTransition)
+{
+	NextSentences[transitionIndex] = newTransition;
+}
+
 void USentence::IWannaDie()
 {
 	this->ConditionalBeginDestroy();
 }
 
-int USentence::GetNextSentence(int i)
+USentence* USentence::GetNextSentence(int i)
 {
 	return NextSentences[0];
 }
 
-int UChoiceSentence::GetNextSentence(int i)
+USentence* UChoiceSentence::GetNextSentence(int i)
 {
 	return NextSentences[i];
 }
+
 
