@@ -8,13 +8,13 @@
 #include "Sentence.h"
 #include "DialogueNPC.generated.h"
 
-UCLASS()
+UCLASS(EditInlineNew)
 class OIZO_API UDialogueNPC : public UPrimaryDataAsset
 {
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TArray<USentence*> sentences;
 	
 

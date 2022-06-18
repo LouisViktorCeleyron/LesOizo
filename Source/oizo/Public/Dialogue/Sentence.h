@@ -8,7 +8,7 @@
 #include "StructsForLocalization.h"
 #include "Sentence.generated.h"
 
-UCLASS(BlueprintType,Blueprintable, Abstract)
+UCLASS(BlueprintType,Blueprintable, Abstract,EditInlineNew)
 class OIZO_API USentence : public UObject
 {
 	public: 

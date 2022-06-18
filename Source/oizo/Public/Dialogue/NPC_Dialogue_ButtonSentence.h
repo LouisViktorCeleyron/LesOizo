@@ -10,24 +10,16 @@
 * 
 */
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FIntDelegate,int,Index);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FTransitionNPCDDelegate,int,SentenceIndex);
-DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FV2DintDelegate,FVector2D,Drag,int,SentenceIndex);
-
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FSentenceDelegate,USentence*,Sentence);
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FV2DSentenceDelegate,FVector2D,Drag,USentence*,Sentence);
 
 DECLARE_DYNAMIC_DELEGATE_OneParam(FSimpleSentenceDelegate, USentence*, Sentence);
 
+
 UCLASS(Blueprintable)
 class OIZO_API UNPC_Dialogue_ButtonSentence : public UUserWidget
 {
-	public:
-
 	GENERATED_BODY()
-	DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FSentenceNPCButtonDelegateTransition, UNPC_Dialogue_ButtonSentence*, SentenceButton);
-	DECLARE_DYNAMIC_DELEGATE_OneParam(FSimpleSentenceNPCButtonDelegateTransition, UNPC_Dialogue_ButtonSentence*, SentenceButton);
-
 
 
 	public:
@@ -40,20 +32,12 @@ class OIZO_API UNPC_Dialogue_ButtonSentence : public UUserWidget
 	UPROPERTY(BlueprintReadOnly)
 	int currentSelectedTransitionIndex;
 
-	public:
-	UPROPERTY(BlueprintCallable,BlueprintAssignable)
-	FV2DintDelegate Move;
-	UPROPERTY(BlueprintCallable,BlueprintAssignable)
-	FTransitionNPCDDelegate OnTransitionClick;
-	UPROPERTY(BlueprintCallable,BlueprintAssignable)
-	FIntDelegate OnSentenceClick;
-
 	UPROPERTY(BlueprintCallable,BlueprintAssignable)
 	FV2DSentenceDelegate MoveSentence;
 	UPROPERTY(BlueprintCallable,BlueprintAssignable)
-	FSentenceNPCButtonDelegateTransition OnSentenceTransitionClick;
+	FSentenceDelegate OnSentenceTransitionClick;
 	UPROPERTY(BlueprintCallable,BlueprintAssignable)
-	FSentenceNPCButtonDelegateTransition OnSentenceButtonClick;
+	FSentenceDelegate OnSentenceButtonClick;
     
 	public:
 	UFUNCTION(BlueprintCallable)
@@ -67,8 +51,11 @@ class OIZO_API UNPC_Dialogue_ButtonSentence : public UUserWidget
 
 public: 
 	UFUNCTION(BlueprintCallable)
-	virtual void SetTransition(UNPC_Dialogue_ButtonSentence* SentenceButtonClickedOn);
+	virtual void SetTransition(USentence* ClickedSentence);
+
+	UFUNCTION(BlueprintCallable)
+	void UpdateMove(FVector2D Drag,FVector2D Min, FVector2D Max);
 	
 	UFUNCTION(BlueprintCallable)
-    void ResetBinding(FSimpleSentenceNPCButtonDelegateTransition OnSentenceClickDefault, FSimpleSentenceNPCButtonDelegateTransition OnSentenceTransitionClickDefault);
+    void ResetBinding(FSimpleSentenceDelegate OnSentenceClickDefault, FSimpleSentenceDelegate OnSentenceTransitionClickDefault);
 };
