@@ -17,3 +17,15 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 	TArray<FString> Keys;
 };
+
+USTRUCT(BlueprintType)
+struct FStringTableForSentence
+{
+	GENERATED_BODY()
+
+public:
+	UPROPERTY(BlueprintReadOnly)
+	FName StringTableID;
+	UPROPERTY(BlueprintReadOnly)
+	int index;
+};

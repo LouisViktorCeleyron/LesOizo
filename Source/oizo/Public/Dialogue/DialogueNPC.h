@@ -5,50 +5,8 @@
 #include "CoreMinimal.h"
 #include "Engine/DataAsset.h"
 #include "OizoEnumEditor.h"
+#include "Sentence.h"
 #include "DialogueNPC.generated.h"
-
-
-USTRUCT(BlueprintType)
-struct FTransition
-{
-	GENERATED_BODY()
-public :
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<int> nextSentences;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TEnumAsByte<EDialogueTransitionType> transitionType;
-};
-
-USTRUCT(BlueprintType)
-struct FSentence
-{
-	GENERATED_BODY()
-public:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FText content;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FString characterName;
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool isMainCharacter;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	FTransition transition;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FVector2D EditorPosition;
-
-	FSentence()
-	{
-	}
-	FSentence(FText c, FString cn, FTransition t, bool imc, FVector2D ep)
-	{
-		content =c;
-		characterName =cn;
-		transition =t;
-		isMainCharacter = imc;
-		EditorPosition = ep;
-	}
-};
-
 
 UCLASS()
 class OIZO_API UDialogueNPC : public UPrimaryDataAsset
@@ -56,14 +14,25 @@ class OIZO_API UDialogueNPC : public UPrimaryDataAsset
 	GENERATED_BODY()
 
 public:
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TArray<FSentence> sentences;
+	UPROPERTY(BlueprintReadOnly, EditAnywhere)
+	TArray<USentence*> sentences;
+	
 
 public:
+	UFUNCTION(BlueprintPure,BlueprintCallable)
+	USentence* GetSentence (int sentenceIndex);
+	
+	UFUNCTION(BlueprintPure,BlueprintCallable)
+	TArray<USentence*> GetSentences ();
+
 	UFUNCTION(BlueprintCallable)
-	void SetSentenceTransition(int sentenceIndex, FTransition transition);
-	UFUNCTION(BlueprintPure,BlueprintCallable)
-	FSentence GetSentence (int sentenceIndex);
-	UFUNCTION(BlueprintPure,BlueprintCallable)
-	TArray<FSentence> GetSentences ();
+    void ClearSentences ();
+
+
+	UFUNCTION(BlueprintCallable, meta = (DeterminesOutputType="SentenceClass"))
+    USentence* CreateSentence(TSubclassOf<class USentence> SentenceClass);
+
+	
+	
 };
+

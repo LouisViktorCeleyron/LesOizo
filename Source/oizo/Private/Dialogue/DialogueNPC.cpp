@@ -3,18 +3,39 @@
 
 #include "DialogueNPC.h"
 
-void UDialogueNPC::SetSentenceTransition(int sentenceIndex, FTransition transition)
-{
-	sentences[sentenceIndex].transition =transition;
-}
+#include <string>
 
-FSentence UDialogueNPC::GetSentence(int sentenceIndex)
+
+
+#include "StructsForLocalization.h"
+#include "Engine/World.h"
+
+USentence* UDialogueNPC::GetSentence(int sentenceIndex)
 {
 	return sentences[sentenceIndex];
 }
 
-TArray<FSentence> UDialogueNPC::GetSentences()
+TArray<USentence*> UDialogueNPC::GetSentences()
 {
 	return sentences;
 }
+
+void UDialogueNPC::ClearSentences()
+{
+	for (USentence* Element : sentences)
+	{
+		Element->IWannaDie();
+	}
+	sentences.Empty();
+}
+
+USentence* UDialogueNPC::CreateSentence(TSubclassOf<USentence> SentenceClass)
+{
+	FName name = SentenceClass->GetFName();
+	const auto tempSentence = NewObject<USentence>(this,SentenceClass, name,RF_Standalone);
+	
+	sentences.Add(tempSentence);
+	return tempSentence;
+}
+
 

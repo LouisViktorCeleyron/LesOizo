@@ -21,4 +21,6 @@ public:
 	static TArray<FStringTableContainer> ReturnAllStringTableKeys();
 	UFUNCTION(BlueprintCallable,BlueprintPure)
 	static const FString GetStringTablePath();
+	UFUNCTION(BlueprintCallable)
+    static FStringTableForSentence SetStringTableForSentence(FStringTableContainer container, FString key);
 };

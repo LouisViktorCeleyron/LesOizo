@@ -38,3 +38,13 @@ const FString ULocalizationEditorUtilities::GetStringTablePath()
 {
 	return "/Game/Data/StringTables";
 }
+
+FStringTableForSentence ULocalizationEditorUtilities::SetStringTableForSentence(FStringTableContainer container,
+	FString key)
+{
+	auto _return = FStringTableForSentence();
+	_return.StringTableID = container.StringTableID;
+	_return.index = container.Keys.Find(key);
+
+	return _return;
+}
