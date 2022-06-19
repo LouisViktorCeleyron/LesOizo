@@ -29,3 +29,15 @@ bool UOizoBPEditorFuncLibrary::Modify(UObject* Object)
 	return Object->Modify(true);
 }
 
+FString UOizoBPEditorFuncLibrary::GenerateID(const int idLenght)
+{
+	const FString _value = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+	FString _retValue = "";
+	for (int i =0; i<= idLenght; i++)
+	{
+		_retValue.Append(_value.Mid(FMath::RandRange(0,_value.Len()+1),1));
+	}
+
+	return _retValue;
+}
+

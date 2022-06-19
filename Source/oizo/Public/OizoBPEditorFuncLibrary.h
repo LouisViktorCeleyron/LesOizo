@@ -18,12 +18,16 @@ UCLASS()
 class OIZO_API UOizoBPEditorFuncLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-	
+
+	public: 
 	UFUNCTION(BlueprintCallable)
         static UEditorUtilityWidget* StartWidget(UWidgetBlueprint* Blueprint);
 	
 	UFUNCTION(BlueprintCallable)
         static bool Modify(UObject* Object);
+
+	UFUNCTION(BlueprintCallable)
+        static FString GenerateID(const int idLenght);
 	
 };
 

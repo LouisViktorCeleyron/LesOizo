@@ -24,6 +24,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TArray<USentence*> NextSentences;
 
+	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector2D EditorPosition;
 

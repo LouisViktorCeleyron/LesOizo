@@ -7,6 +7,7 @@
 
 
 
+#include "OizoBPEditorFuncLibrary.h"
 #include "StructsForLocalization.h"
 #include "Engine/World.h"
 
@@ -31,9 +32,9 @@ void UDialogueNPC::ClearSentences()
 
 USentence* UDialogueNPC::CreateSentence(TSubclassOf<USentence> SentenceClass)
 {
-	FName name = SentenceClass->GetFName();
-	const auto tempSentence = NewObject<USentence>(this,SentenceClass, name,RF_Standalone);
-	
+	auto ID =UOizoBPEditorFuncLibrary::GenerateID(8);
+	FName name  = FName(*ID);
+	auto tempSentence = NewObject<USentence>(this,SentenceClass, name,RF_Standalone | RF_Public);
 	sentences.Add(tempSentence);
 	return tempSentence;
 }
