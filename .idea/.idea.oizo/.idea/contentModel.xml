@@ -37483,6 +37483,7 @@
           <e p="oizo.cpp" t="Include" />
           <e p="oizo.h" t="Include" />
           <e p="Private" t="Include">
+            <e p="CastleNestInstance.cpp" t="Include" />
             <e p="Dialogue" t="Include">
               <e p="DialogueNPC.cpp" t="Include" />
               <e p="Editor" t="Include">
@@ -37501,6 +37502,7 @@
             <e p="OizoBPEditorFuncLibrary.cpp" t="Include" />
           </e>
           <e p="Public" t="Include">
+            <e p="CastleNestInstance.h" t="Include" />
             <e p="Dialogue" t="Include">
               <e p="DialogueNPC.h" t="Include" />
               <e p="Editor" t="Include">

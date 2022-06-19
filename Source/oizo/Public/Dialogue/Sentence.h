@@ -3,7 +3,6 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "DialogueNPC.h"
 #include "Object.h"
 #include "StructsForLocalization.h"
 #include "Sentence.generated.h"

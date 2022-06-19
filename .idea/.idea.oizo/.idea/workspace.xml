@@ -6,16 +6,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Data/Dialogues/testDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Dialogues/testDialogue.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/BP_EU_W_DialogueNPC.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Tools/BP_U_LoadDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/BP_U_LoadDialogue.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Tools/SubClassEditorDialogue/WBP_NPCInspector.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/SubClassEditorDialogue/WBP_NPCInspector.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Tools/SubClassEditorDialogue/WBP_NewDialogueWidget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/SubClassEditorDialogue/WBP_NewDialogueWidget.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_Name.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WBP_Name.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,8 +120,8 @@
       <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/NPC_Dialogue_ButtonSentence.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vmDZUxxhLDmv0zmRXXqLAZe5w5" />
@@ -505,7 +499,8 @@
       <workItem from="1655230738346" duration="11324000" />
       <workItem from="1655458644466" duration="9675000" />
       <workItem from="1655542725565" duration="663000" />
-      <workItem from="1655578613723" duration="4115000" />
+      <workItem from="1655578613723" duration="4709000" />
+      <workItem from="1655670988521" duration="959000" />
     </task>
     <servers />
   </component>
