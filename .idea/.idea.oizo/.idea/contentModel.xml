@@ -37473,6 +37473,7 @@
         <e p="oizo.vcxproj" t="IncludeRecursive" />
         <e p="UE4.vcxproj" t="IncludeRecursive" />
       </e>
+      <e p="LoiuisDuFuturLisMoiStpQuandtuveuxfairedeleditor.txt" t="Include" />
       <e p="oizo.sln" t="IncludeFlat" />
       <e p="oizo.uproject" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
@@ -37523,19 +37524,6 @@
           </e>
         </e>
         <e p="oizo.Target.cs" t="Include" />
-        <e p="oizoEditor" t="Include">
-          <e p="oizoEditor.Build.cs" t="Include" />
-          <e p="oizoEditorModuleInterface.h" t="Include" />
-          <e p="Private" t="Include">
-            <e p="DialogueNPCDataTypeAction.cpp" t="Include" />
-            <e p="oizoEditor.cpp" t="Include" />
-          </e>
-          <e p="Public" t="Include">
-            <e p="DialogueNPCDataTypeAction.h" t="Include" />
-            <e p="oizoEditor.h" t="Include" />
-          </e>
-        </e>
-        <e p="oizoEditor.Target.cs" t="Include" />
       </e>
       <e p="Visualizers" t="Include" />
     </e>

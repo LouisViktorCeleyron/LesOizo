@@ -17,7 +17,6 @@ public class oizo : ModuleRules
 			"UnrealEd",
 			"Blutility",
 			"UMG",
-			"UMGEditor",
 			"AssetRegistry" 
 		});
 
