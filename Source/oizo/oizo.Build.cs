@@ -16,6 +16,7 @@ public class oizo : ModuleRules
 			"SlateCore",
 			"UnrealEd",
 			"Blutility",
+            "UMGEditor",
 			"UMG",
 			"AssetRegistry" 
 		});
