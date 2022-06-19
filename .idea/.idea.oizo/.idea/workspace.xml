@@ -6,10 +6,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_Name.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WBP_Name.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor.Target.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/Private/DialogueNPCDataTypeAction.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/Private/oizoEditor.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/Public/DialogueNPCDataTypeAction.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/Public/oizoEditor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/oizoEditor.Build.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/oizoEditorModuleInterface.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +36,6 @@
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/UMG/Public/Blueprint/UserWidget.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/CinematicCamera/Public/CineCameraComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Kismet/Private/BlueprintPaletteFavorites.cpp" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Source/oizoEditor/oizoEditor.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Private/Serialization/CustomVersion.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Developer/AssetTools/Public/AssetTypeCategories.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" root0="FORCE_HIGHLIGHTING" />
@@ -100,7 +106,6 @@
       <option value="$PROJECT_DIR$/Source/oizoEditor/oizo.Build.cs" />
       <option value="$PROJECT_DIR$/Source/oizoEditor/FoizoEditor.h" />
       <option value="$PROJECT_DIR$/Source/oizoEditor/FoizoEditor.cpp" />
-      <option value="$PROJECT_DIR$/Source/oizoEditor/oizoEditor.Build.cs" />
       <option value="$PROJECT_DIR$/Source/oizoEditor/oizoEditor.cpp" />
       <option value="$PROJECT_DIR$/Source/oizoEditor/oizoEditor.h" />
       <option value="$PROJECT_DIR$/Source/oizoEditor/DialogueDataEditor/DialogueNPCDataTypeAction.cpp" />
@@ -108,7 +113,6 @@
       <option value="$PROJECT_DIR$/oizo.uproject" />
       <option value="$PROJECT_DIR$/Source/oizoEditor/Private/oizoEditor.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo.Target.cs" />
-      <option value="$PROJECT_DIR$/Source/oizoEditor.Target.cs" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/StructsForLocalization.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/LocalizationEditorUtilities.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Editor/LocalizationEditorUtilities.cpp" />
@@ -122,6 +126,9 @@
       <option value="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor/oizoEditor.Build.cs" />
+      <option value="$PROJECT_DIR$/Source/oizoEditor.Target.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vmDZUxxhLDmv0zmRXXqLAZe5w5" />
@@ -500,7 +507,7 @@
       <workItem from="1655458644466" duration="9675000" />
       <workItem from="1655542725565" duration="663000" />
       <workItem from="1655578613723" duration="4709000" />
-      <workItem from="1655670988521" duration="959000" />
+      <workItem from="1655670988521" duration="1774000" />
     </task>
     <servers />
   </component>

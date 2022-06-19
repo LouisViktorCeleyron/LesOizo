@@ -9,9 +9,10 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(BlueprintType)
 class OIZO_API UCastleNestInstance : public UGameInstance
 {
 	GENERATED_BODY()
-	
+	public:
+	FText PlayerName;
 };
