@@ -14,5 +14,13 @@ class OIZO_API UCastleNestInstance : public UGameInstance
 {
 	GENERATED_BODY()
 	public:
-	FText PlayerName;
+	UPROPERTY(BlueprintReadWrite)
+	FString PlayerName;
+
+	public:
+	UFUNCTION(BlueprintCallable)
+	void AppendPlayerName(FString stringToAdd);
+	
+	UFUNCTION(BlueprintCallable)
+    void RemoveLastLetterOfPlayerName();
 };
