@@ -5,14 +5,7 @@
     <projectFile>Intermediate/ProjectFiles/UE4.vcxproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_Name.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WBP_Name.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/CastleNestInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/CastleNestInstance.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" afterDir="false" />
-    </list>
+    <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -504,7 +497,7 @@
       <workItem from="1655542725565" duration="663000" />
       <workItem from="1655578613723" duration="4709000" />
       <workItem from="1655670988521" duration="1774000" />
-      <workItem from="1655727152228" duration="4087000" />
+      <workItem from="1655727152228" duration="4687000" />
     </task>
     <servers />
   </component>
