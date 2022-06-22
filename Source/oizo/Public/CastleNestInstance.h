@@ -16,6 +16,10 @@ class OIZO_API UCastleNestInstance : public UGameInstance
 	public:
 	UPROPERTY(BlueprintReadWrite)
 	FString PlayerName;
+	
+	UPROPERTY(BlueprintReadWrite)
+	FString Pronoun;
+
 
 	public:
 	UFUNCTION(BlueprintCallable)
