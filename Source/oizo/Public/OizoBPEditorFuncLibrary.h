@@ -4,10 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "NPC_Dialogue_ButtonSentence.h"
-#include "Editor/Blutility/Classes/EditorUtilityWidget.h"
+//#include "Editor/Blutility/Classes/EditorUtilityWidget.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
-#include "UMGEditor/Public/WidgetBlueprint.h"
-#include "Editor/Blutility/Classes/EditorUtilityWidgetBlueprint.h"
+// #include "UMGEditor/Public/WidgetBlueprint.h"
+//#include "Editor/Blutility/Classes/EditorUtilityWidgetBlueprint.h"
 
 #include "OizoBPEditorFuncLibrary.generated.h"
 
@@ -18,13 +18,13 @@ UCLASS()
 class OIZO_API UOizoBPEditorFuncLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-
+ //
 	public: 
-	UFUNCTION(BlueprintCallable)
-        static UEditorUtilityWidget* StartWidget(UWidgetBlueprint* Blueprint);
+	// UFUNCTION(BlueprintCallable)
+ //        static UEditorUtilityWidget* StartWidget(UWidgetBlueprint* Blueprint);
 	
-	UFUNCTION(BlueprintCallable)
-        static bool Modify(UObject* Object);
+	// UFUNCTION(BlueprintCallable)
+ //        static bool Modify(UObject* Object);
 
 	UFUNCTION(BlueprintCallable)
         static FString GenerateID(const int idLenght);
