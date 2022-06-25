@@ -37485,6 +37485,7 @@
           <e p="oizo.h" t="Include" />
           <e p="Private" t="Include">
             <e p="CastleNestInstance.cpp" t="Include" />
+            <e p="CastlenestPlayerState.cpp" t="Include" />
             <e p="Dialogue" t="Include">
               <e p="DialogueNPC.cpp" t="Include" />
               <e p="Editor" t="Include">
@@ -37494,16 +37495,19 @@
               <e p="Sentence.cpp" t="Include" />
             </e>
             <e p="Editor" t="Include">
-              <e p="DialogueNPCEditor.cpp" t="Include" />
               <e p="EditorFunctionLibrary.cpp" t="Include" />
               <e p="LocalizationEditorUtilities.cpp" t="Include" />
               <e p="StructsForLocalization.cpp" t="Include" />
+            </e>
+            <e p="Items" t="Include">
+              <e p="ItemAsset.cpp" t="Include" />
             </e>
             <e p="MyTestActor.cpp" t="Include" />
             <e p="OizoBPEditorFuncLibrary.cpp" t="Include" />
           </e>
           <e p="Public" t="Include">
             <e p="CastleNestInstance.h" t="Include" />
+            <e p="CastlenestPlayerState.h" t="Include" />
             <e p="Dialogue" t="Include">
               <e p="DialogueNPC.h" t="Include" />
               <e p="Editor" t="Include">
@@ -37513,10 +37517,12 @@
               <e p="Sentence.h" t="Include" />
             </e>
             <e p="Editor" t="Include">
-              <e p="DialogueNPCEditor.h" t="Include" />
               <e p="EditorFunctionLibrary.h" t="Include" />
               <e p="LocalizationEditorUtilities.h" t="Include" />
               <e p="StructsForLocalization.h" t="Include" />
+            </e>
+            <e p="Items" t="Include">
+              <e p="ItemAsset.h" t="Include" />
             </e>
             <e p="MyTestActor.h" t="Include" />
             <e p="OizoBPEditorFuncLibrary.h" t="Include" />

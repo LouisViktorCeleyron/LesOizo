@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
+#include "Materials/MaterialInstance.h"
+
 #include "CastleNestInstance.generated.h"
 
 /**
@@ -20,6 +22,15 @@ class OIZO_API UCastleNestInstance : public UGameInstance
 	UPROPERTY(BlueprintReadWrite)
 	FString Pronoun;
 
+
+	UPROPERTY(BlueprintReadWrite)
+	bool MEGATEMPORAIRE_IsNameValidated;
+	UPROPERTY(BlueprintReadWrite)
+	FTransform MEGATEMPORAIRE_KiwiTransform;
+	UPROPERTY(BlueprintReadWrite)
+	TArray<FLinearColor> UTLRATEMPORAIRE_CharaColor;
+	UPROPERTY(BlueprintReadWrite)
+	UTexture* UTLRATEMPORAIRE_CharaBase;
 
 	public:
 	UFUNCTION(BlueprintCallable)
