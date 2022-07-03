@@ -20,7 +20,7 @@ class OIZO_API ACastlenestPlayerState : public APlayerState
 	GENERATED_BODY()
 	public :
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	TArray<UItemAsset*> Inventory;
 
 	UPROPERTY(BlueprintReadOnly)
@@ -32,4 +32,7 @@ class OIZO_API ACastlenestPlayerState : public APlayerState
 	public:
 	UFUNCTION(BlueprintCallable)
 	void ChangeChapo(UItemChapoAsset* newChapo);
+	
+	UFUNCTION(BlueprintCallable)
+    TArray<UItemChapoAsset*> GetAllChapoInInventory();
 };

@@ -20,11 +20,11 @@ public:
 	UPROPERTY(BlueprintReadOnly,EditAnywhere)
 	FString Description;
 	UPROPERTY(BlueprintReadOnly,EditAnywhere)
-	UTexture* Icon;
+	UTexture2D* Icon;
 	UPROPERTY(BlueprintReadOnly,EditAnywhere)
 	UStaticMesh* Mesh;
 	
-	
+
 	
 };
 
