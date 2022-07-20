@@ -9,19 +9,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_MainOiseau.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_MainOiseau.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_PC_WorldPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_PC_WorldPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Data/Items/Chapo/DA_Hat_Classic.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_ChangeBaseColorButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_ChangeBaseColorButton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_Inventary.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_SceneCaptureBlueprint.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_SceneCaptureBlueprint.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_Inventaire.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WBP_Inventaire.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/maps/villageDemo.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/villageDemo.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/materials_colors/M_greenblueclair.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/materials_colors/M_greenblueclair.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerState.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerState.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Items/ItemAsset.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Items/ItemAsset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/OizoEnumEditor.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/oizo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/oizo.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +38,7 @@
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/CinematicCamera/Public/CineCameraComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Kismet/Private/BlueprintPaletteFavorites.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Private/Serialization/CustomVersion.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Private/Actor.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Developer/AssetTools/Public/AssetTypeCategories.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UMGEditor/Private/Settings/WidgetDesignerSettings.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" root0="FORCE_HIGHLIGHTING" />
@@ -50,10 +47,12 @@
     <setting file="file://$PROJECT_DIR$/../../ProjectK_MainFolder/[1]UE4_Project/ProjectK/Source/ProjectK/ProjectK.Build.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/Engine/DataAsset.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../ProjectK_MainFolder/[1]UE4_Project/ProjectK/Source/ProjectK.Target.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/VREditor/UI/VRRadialMenuHandler.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Slate/Public/Framework/Docking/TabManager.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/NavigationSystem/Public/NavigationSystem.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UnrealEd/Classes/Exporters/TextureCubeExporterHDR.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/EditorWidgets/EditorWidgets.Build.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/Kismet/KismetStringTableLibrary.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/BlueprintGraph/Classes/K2Node_SpawnActorFromClass.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UMGEditor/Private/Components/DetailsView.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -69,6 +68,7 @@
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Blutility/Public/EditorUtilitySubsystem.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Blutility/Classes/EditorUtilityWidgetBlueprint.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/EditorWidgets/Private/SObjectNameEditableTextBox.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/StatsViewer/Private/ObjectHyperlinkColumn.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Blutility/Private/AssetTypeActions_EditorUtilityWidgetBlueprint.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UnrealEd/Public/Toolkits/AssetEditorToolkit.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/AIModule/Classes/Perception/AISenseConfig_Blueprint.h" root0="FORCE_HIGHLIGHTING" />
@@ -85,9 +85,11 @@
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Launch/Launch.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Public/Math/Vector2D.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Public/Delegates/DelegateSignatureImpl.inl" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/CurveEditor/Private/Views/SInteractiveCurveEditorView.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Public/Misc/Parse.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UnrealEd/Private/Settings/GameMapsSettingsCustomization.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Programs/UnrealHeaderTool/Private/CodeGenerator.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UnrealEd/Private/AssetEditorModeManager.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/CoreUObject/Private/UObject/Obj.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Developer/SettingsEditor/Private/SettingsEditorModule.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/GameplayTasksEditor/Private/K2Node_LatentGameplayTaskCall.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -110,13 +112,11 @@
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UMGEditor/Private/Details/SWidgetDetailsView.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Slate/Public/Widgets/Views/STableRow.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Core/Public/UObject/NameTypes.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/Components/StaticMeshComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Kismet/Private/BPDelegateDragDropAction.cpp" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/Blutility/Public/IBlutilityModule.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/DialogueSentence.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Private/DialogueSentence.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/DialogueTransition.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/DialogueTransition.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/Editor/Editor_DialogueNPC.cpp" />
@@ -140,7 +140,6 @@
       <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/Sentence.cpp" />
       <option value="$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Config/BaseEditorPerProjectUserSettings.ini" />
       <option value="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/NPC_Dialogue_ButtonSentence.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueNPC.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" />
@@ -150,7 +149,6 @@
       <option value="$PROJECT_DIR$/Intermediate/ProjectFiles/oizo.vcxproj" />
       <option value="$PROJECT_DIR$/Source/oizo.Target.cs" />
       <option value="$PROJECT_DIR$/Source/oizo/oizo.Build.cs" />
-      <option value="$PROJECT_DIR$/oizo.uproject" />
       <option value="$PROJECT_DIR$/Source/oizoEditor.Target.cs" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/DialogueNPCEditor.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/Editor/DialogueNPCEditor.cpp" />
@@ -160,6 +158,16 @@
       <option value="$PROJECT_DIR$/Source/oizo/Public/Items/ItemAsset.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerState.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerState.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerController.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/UI/Capture3DObject.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/OizoEnumEditor.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/UI/WidgetInventaireParent.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/UI/Capture3DObject.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/UI/CastlenestBaseUserWidget.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/UI/CastlenestBaseUserWidget.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerController.cpp" />
+      <option value="$PROJECT_DIR$/oizo.uproject" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vmDZUxxhLDmv0zmRXXqLAZe5w5" />
@@ -553,7 +561,15 @@
       <workItem from="1656176673562" duration="4341000" />
       <workItem from="1656354632544" duration="595000" />
       <workItem from="1656772196699" duration="3149000" />
-      <workItem from="1656844505670" duration="2073000" />
+      <workItem from="1656844505670" duration="17040000" />
+      <workItem from="1656962448245" duration="904000" />
+      <workItem from="1656963451871" duration="3045000" />
+      <workItem from="1656968216230" duration="1691000" />
+      <workItem from="1656969988627" duration="647000" />
+      <workItem from="1656971145586" duration="722000" />
+      <workItem from="1656972110011" duration="837000" />
+      <workItem from="1657123025013" duration="3620000" />
+      <workItem from="1657127145045" duration="388000" />
     </task>
     <servers />
   </component>
