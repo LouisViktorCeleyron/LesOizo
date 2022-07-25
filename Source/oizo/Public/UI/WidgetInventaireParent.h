@@ -15,6 +15,8 @@
 UCLASS(Blueprintable,BlueprintType)
 class OIZO_API UWidgetInventaireParent : public UCastlenestBaseUserWidget
 {
+
+private:
 	GENERATED_BODY()
 public:
 	UPROPERTY(BlueprintReadWrite)
@@ -23,6 +25,7 @@ public:
 public :
 	UFUNCTION(BlueprintCallable)
 	void DestroyStudioBP();
+	virtual void RemoveFromParent() override;
 
 	
 };

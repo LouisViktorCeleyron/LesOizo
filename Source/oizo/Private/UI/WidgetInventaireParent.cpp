@@ -10,3 +10,8 @@ void UWidgetInventaireParent::DestroyStudioBP()
 		StudioBP->Destroy();
 	}
 }
+
+void UWidgetInventaireParent::RemoveFromParent()
+{
+	DestroyStudioBP();
+}

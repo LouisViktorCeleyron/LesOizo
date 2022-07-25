@@ -37487,6 +37487,7 @@
             <e p="CastleNestInstance.cpp" t="Include" />
             <e p="CastlenestPlayerController.cpp" t="Include" />
             <e p="CastlenestPlayerState.cpp" t="Include" />
+            <e p="ClassicFunctionLibrary.cpp" t="Include" />
             <e p="Dialogue" t="Include">
               <e p="DialogueNPC.cpp" t="Include" />
               <e p="Editor" t="Include">
@@ -37515,6 +37516,7 @@
             <e p="CastleNestInstance.h" t="Include" />
             <e p="CastlenestPlayerController.h" t="Include" />
             <e p="CastlenestPlayerState.h" t="Include" />
+            <e p="ClassicFunctionLibrary.h" t="Include" />
             <e p="Dialogue" t="Include">
               <e p="DialogueNPC.h" t="Include" />
               <e p="Editor" t="Include">

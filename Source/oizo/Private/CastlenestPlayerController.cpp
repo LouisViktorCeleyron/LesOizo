@@ -29,3 +29,23 @@ void ACastlenestPlayerController::AddInventoryToViewPort()
 		widgetInventory->StudioBP = _capture3DObject;
 	}
 }
+
+void ACastlenestPlayerController::AddItemToInventory(UItemAsset* newItem)
+{
+	inventory.Add(newItem);
+}
+
+TArray<UItemAsset*> ACastlenestPlayerController::GetSpecificInventory(TSubclassOf<class UItemAsset> itemAssetClass)
+{
+	auto _return = TArray<UItemAsset*>();
+
+	for(auto _item : inventory)
+	{
+		if(_item->GetClass() == itemAssetClass)
+		{
+			_return.Add(_item);
+		}
+	}
+
+	return _return;
+}
