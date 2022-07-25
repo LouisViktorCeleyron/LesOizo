@@ -24,4 +24,8 @@ class OIZO_API ACastlenestPlayerController : public APlayerController
 	public:
 	UPROPERTY(BlueprintReadOnly)
 	UWidgetInventaireParent* widgetInventory;
+
+	UPROPERTY(BlueprintReadOnly,EditAnywhere)
+	TSubclassOf<UWidgetInventaireParent> widgetInventoryClass;
+
 };

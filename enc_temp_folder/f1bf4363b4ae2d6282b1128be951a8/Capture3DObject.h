@@ -4,8 +4,6 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Components/StaticMeshComponent.h"
-#include "Components/SceneCaptureComponent2D.h"
 #include "Capture3DObject.generated.h"
 
 UCLASS(Blueprintable,BlueprintType)
@@ -25,11 +23,8 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-public:
-	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,meta = (AllowPrivateAccess = "true"))
-	USceneComponent* Root;
-	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,meta = (AllowPrivateAccess = "true"))
+//public:
+	// UPROPERTY(EditAnywhere,BlueprintReadOnly)
 	UStaticMeshComponent* MeshToRecord;
-	UPROPERTY(VisibleAnywhere,BlueprintReadOnly,meta = (AllowPrivateAccess = "true"))
-	USceneCaptureComponent2D* Capture;
+
 };

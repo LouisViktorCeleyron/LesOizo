@@ -2,17 +2,32 @@
 
 
 #include "CastlenestPlayerController.h"
+#include "Engine/Engine.h"
 #include "UserWidget.h"
 
 
 void ACastlenestPlayerController::BeginPlay()
 {
-	//widgetInventory = CreateWidget<UWidgetInventaireParent>(this);
+	auto _this = this;
+	
+	// FString t = FString(IsValid(this)?"C'est ok":"C'est pas ok"); //Message
+	// GEngine->AddOnScreenDebugMessage(FMath::Rand(),10,FColor::Red,t); //Print to Screen
+	// UE_LOG(LogTemp,Warning,TEXT("%s"), *t); //PrintToLog
+
+	widgetInventory = CreateWidget<UWidgetInventaireParent>(_this,widgetInventoryClass);
+	SetActorTickEnabled(true);
+	Super::BeginPlay();	
 }
 
 void ACastlenestPlayerController::AddInventoryToViewPort()
 {
-	//widgetInventory->AddToViewport();
-	//const auto _capture3DObject = GetWorld()->SpawnActor<ACapture3DObject>(FVector(1000,1000,1000),FRotator(0,0,0));
-	//widgetInventory->StudioBP = _capture3DObject;
+	if(IsValid(widgetInventory))
+	{
+		widgetInventory->AddToViewport();
+		if(IsValid(GetWorld()))
+		{
+			const auto _capture3DObject = GetWorld()->SpawnActor<ACapture3DObject>(FVector(1000,1000,1000),FRotator(0,0,0));
+			widgetInventory->StudioBP = _capture3DObject;
+		}
+	}
 }
