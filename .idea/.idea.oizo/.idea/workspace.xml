@@ -10,27 +10,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_MainOiseau.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_MainOiseau.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_PC_WorldPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_PC_WorldPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_SceneCaptureBlueprint.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_SceneCaptureBlueprint.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Data/Items/Chapo/DA_Hat_Cap.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Items/Chapo/DA_Hat_Cap.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Data/Items/Chapo/DA_Hat_StrawHat.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Items/Chapo/DA_Hat_StrawHat.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/BP_PlayerState.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/BP_PlayerState.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_HatButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_HatButton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_Inventaire.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WBP_Inventaire.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/maps/villageDemo.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/villageDemo.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_SceneCapture.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_SceneCapture.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_SceneCaptureBlueprint.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerController.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/UI/Capture3DObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/UI/Capture3DObject.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/UI/CastlenestBaseUserWidget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/UI/CastlenestBaseUserWidget.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/UI/WidgetInventaireParent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/UI/WidgetInventaireParent.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerController.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/UI/Capture3DObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/UI/Capture3DObject.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/UI/CastlenestBaseUserWidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/UI/CastlenestBaseUserWidget.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/UI/WidgetInventaireParent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/UI/WidgetInventaireParent.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oizo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/oizo.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -585,7 +569,7 @@
       <workItem from="1657123025013" duration="3620000" />
       <workItem from="1657127145045" duration="388000" />
       <workItem from="1658498311475" duration="3423000" />
-      <workItem from="1658738497104" duration="11613000" />
+      <workItem from="1658738497104" duration="14437000" />
     </task>
     <servers />
   </component>

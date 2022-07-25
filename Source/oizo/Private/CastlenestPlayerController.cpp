@@ -21,13 +21,11 @@ void ACastlenestPlayerController::BeginPlay()
 
 void ACastlenestPlayerController::AddInventoryToViewPort()
 {
+	const auto _capture3DObject = GetWorld()->SpawnActor<ACapture3DObject>(captureObjectClass,FVector(1000,1000,1000),FRotator(0,0,0));
+	
 	if(IsValid(widgetInventory))
 	{
 		widgetInventory->AddToViewport();
-		if(IsValid(GetWorld()))
-		{
-			const auto _capture3DObject = GetWorld()->SpawnActor<ACapture3DObject>(FVector(1000,1000,1000),FRotator(0,0,0));
-			widgetInventory->StudioBP = _capture3DObject;
-		}
+		widgetInventory->StudioBP = _capture3DObject;
 	}
 }
