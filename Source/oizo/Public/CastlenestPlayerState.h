@@ -31,8 +31,16 @@ class OIZO_API ACastlenestPlayerState : public APlayerState
 
 	public:
 	UFUNCTION(BlueprintCallable)
+	void AddItemToInventory(UItemAsset* newItem);
+	
+	UFUNCTION(BlueprintCallable)
 	void ChangeChapo(UItemChapoAsset* newChapo);
 	
 	UFUNCTION(BlueprintCallable)
     TArray<UItemChapoAsset*> GetAllChapoInInventory();
+	
+	UFUNCTION(BlueprintCallable, meta = (DeterminesOutputType="itemAssetClass"))
+    TArray<UItemAsset*> GetSpecificInventory(TSubclassOf<class UItemAsset> itemAssetClass);
+
+    
 };

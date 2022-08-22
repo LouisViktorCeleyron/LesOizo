@@ -23,18 +23,31 @@ public:
 	UTexture2D* Icon;
 	UPROPERTY(BlueprintReadOnly,EditAnywhere)
 	UStaticMesh* Mesh;
+
+	public:
+	UFUNCTION(BlueprintCallable)
+	virtual void Action();
 	
 
 	
 };
 
-
-UCLASS(Blueprintable)
-class UItemChapoAsset : public UItemAsset
+UCLASS()
+class UItemUsable : public UItemAsset
 {
 	GENERATED_BODY()
 public:
+	UPROPERTY(BlueprintReadOnly)
+	FString UseSentence;
 	
+};
+
+UCLASS(Blueprintable)
+class UItemChapoAsset : public UItemUsable
+{
+	GENERATED_BODY()
+public:
+	virtual void Action() override;
 	
 	
 };

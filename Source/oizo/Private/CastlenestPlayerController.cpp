@@ -30,22 +30,19 @@ void ACastlenestPlayerController::AddInventoryToViewPort()
 	}
 }
 
-void ACastlenestPlayerController::AddItemToInventory(UItemAsset* newItem)
+void ACastlenestPlayerController::RemoveInventoryFromViewPort()
 {
-	inventory.Add(newItem);
-}
-
-TArray<UItemAsset*> ACastlenestPlayerController::GetSpecificInventory(TSubclassOf<class UItemAsset> itemAssetClass)
-{
-	auto _return = TArray<UItemAsset*>();
-
-	for(auto _item : inventory)
+	if(IsValid(widgetInventory))
 	{
-		if(_item->GetClass() == itemAssetClass)
+		widgetInventory->RemoveFromParent();
+		for (UWidgetInventaireParent* widget : AllChildren)
 		{
-			_return.Add(_item);
+			widget->RemoveFromParent();
 		}
 	}
-
-	return _return;
 }
+
+
+
+
+

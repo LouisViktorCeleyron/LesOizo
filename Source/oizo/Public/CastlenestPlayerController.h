@@ -23,15 +23,14 @@ class OIZO_API ACastlenestPlayerController : public APlayerController
 	void AddInventoryToViewPort();
 	
 	UFUNCTION(BlueprintCallable)
-    void AddItemToInventory(UItemAsset* newItem);
-
-	UFUNCTION(BlueprintCallable, meta = (DeterminesOutputType="itemAssetClass"))
-	TArray<UItemAsset*> GetSpecificInventory(TSubclassOf<class UItemAsset> itemAssetClass);
-
+    void RemoveInventoryFromViewPort();
 	
 	public:
 	UPROPERTY(BlueprintReadOnly)
 	UWidgetInventaireParent* widgetInventory;
+
+	UPROPERTY(BlueprintReadOnly)
+	TArray<UWidgetInventaireParent*> AllChildren;
 
 	UPROPERTY(BlueprintReadOnly,EditAnywhere)
 	TSubclassOf<UWidgetInventaireParent> widgetInventoryClass;
@@ -39,6 +38,4 @@ class OIZO_API ACastlenestPlayerController : public APlayerController
 	UPROPERTY(BlueprintReadOnly,EditAnywhere)
 	TSubclassOf<ACapture3DObject> captureObjectClass;
 
-	UPROPERTY(BlueprintReadOnly)
-	TArray<UItemAsset*> inventory;
 };

@@ -9,16 +9,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_DialogueManager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_DialogueManager.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_PC_WorldPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_PC_WorldPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/NewBlueprintPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/NewBlueprintPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_HatButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_HatButton.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_Inventaire.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WBP_Inventaire.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_TestEtAutre.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_TestEtAutre.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Trash/Bp_DialogueManagerTrash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Trash/Bp_DialogueManagerTrash.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_HatButton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_HatInventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WBP_HatInventory.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_Inventory.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_Item.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/maps/villageDemo.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/villageDemo.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerController.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerState.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerState.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/ClassicFunctionLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/ClassicFunctionLibrary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Items/ItemAsset.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Items/ItemAsset.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Private/UI/WidgetInventaireParent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/UI/WidgetInventaireParent.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerState.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerState.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/ClassicFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/ClassicFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Items/ItemAsset.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Items/ItemAsset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/UI/CastlenestBaseUserWidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/UI/CastlenestBaseUserWidget.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Public/UI/WidgetInventaireParent.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/UI/WidgetInventaireParent.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UMGEditor/Private/Settings/WidgetDesignerSettings.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/CoreUObject/Public/UObject/Object.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Developer/AssetTools/Public/AssetTypeActions_Base.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/GameFramework/PlayerController.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/GameProjectGeneration/Public/GameProjectUtils.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../ProjectK_MainFolder/[1]UE4_Project/ProjectK/Source/ProjectK/ProjectK.Build.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/Engine/DataAsset.h" root0="FORCE_HIGHLIGHTING" />
@@ -53,6 +65,7 @@
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Slate/Public/Framework/Docking/TabManager.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/NavigationSystem/Public/NavigationSystem.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/UnrealEd/Classes/Exporters/TextureCubeExporterHDR.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/GameFramework/Controller.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Editor/EditorWidgets/EditorWidgets.Build.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/GameFramework/Actor.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/Runtime/Engine/Classes/Kismet/KismetStringTableLibrary.h" root0="FORCE_HIGHLIGHTING" />
@@ -120,7 +133,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Editor/Editor_DialogueNPC.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/IDialogueUI.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/DelegateBank.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Editor/EditorFunctionLibrary.h" />
@@ -155,22 +167,23 @@
       <option value="$PROJECT_DIR$/Source/oizo/Public/OizoBPEditorFuncLibrary.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/OizoBPEditorFuncLibrary.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/Items/ItemAsset.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerState.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerState.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/OizoEnumEditor.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueNPC.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/UI/CastlenestBaseUserWidget.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/UI/CastlenestBaseUserWidget.cpp" />
       <option value="$PROJECT_DIR$/oizo.uproject" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/UI/Capture3DObject.h" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/UI/Capture3DObject.cpp" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerController.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerController.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/ClassicFunctionLibrary.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/UI/CastlenestBaseUserWidget.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/ClassicFunctionLibrary.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Private/UI/WidgetInventaireParent.cpp" />
       <option value="$PROJECT_DIR$/Source/oizo/Public/UI/WidgetInventaireParent.h" />
-      <option value="$PROJECT_DIR$/Source/oizo/Private/ClassicFunctionLibrary.cpp" />
-      <option value="$PROJECT_DIR$/Source/oizo/Public/ClassicFunctionLibrary.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/Items/ItemAsset.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/Items/ItemAsset.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerState.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerState.cpp" />
+      <option value="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerController.h" />
+      <option value="$PROJECT_DIR$/Source/oizo/Private/CastlenestPlayerController.cpp" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vmDZUxxhLDmv0zmRXXqLAZe5w5" />
@@ -575,6 +588,10 @@
       <workItem from="1657127145045" duration="388000" />
       <workItem from="1658498311475" duration="3423000" />
       <workItem from="1658738497104" duration="22092000" />
+      <workItem from="1658827154212" duration="7399000" />
+      <workItem from="1659089624227" duration="1797000" />
+      <workItem from="1659550624897" duration="4648000" />
+      <workItem from="1661006197277" duration="2824000" />
     </task>
     <servers />
   </component>

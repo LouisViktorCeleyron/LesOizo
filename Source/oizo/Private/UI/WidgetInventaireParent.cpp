@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
+#include "UObjectIterator.h"
 #include "WidgetInventaireParent.h"
 
 void UWidgetInventaireParent::DestroyStudioBP()
@@ -14,4 +15,6 @@ void UWidgetInventaireParent::DestroyStudioBP()
 void UWidgetInventaireParent::RemoveFromParent()
 {
 	DestroyStudioBP();
+	UCastlenestBaseUserWidget::RemoveFromParent();
 }
+

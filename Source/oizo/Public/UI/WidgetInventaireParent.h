@@ -27,5 +27,7 @@ public :
 	void DestroyStudioBP();
 	virtual void RemoveFromParent() override;
 
-	
+
+
+
 };
