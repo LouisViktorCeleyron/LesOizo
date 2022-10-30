@@ -10,28 +10,28 @@
 UCLASS(EditInlineNew)
 class OIZO_API UDialogueNPC : public UPrimaryDataAsset
 {
-	GENERATED_BODY()
+    GENERATED_BODY()
 
 public:
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	TArray<USentence*> sentences;
-	
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+    TArray<USentence*> sentences;
+    
 
 public:
-	UFUNCTION(BlueprintPure,BlueprintCallable)
-	USentence* GetSentence (int sentenceIndex);
-	
-	UFUNCTION(BlueprintPure,BlueprintCallable)
-	TArray<USentence*> GetSentences ();
+    UFUNCTION(BlueprintPure,BlueprintCallable)
+    USentence* GetSentence (int sentenceIndex);
+    
+    UFUNCTION(BlueprintPure,BlueprintCallable)
+    TArray<USentence*> GetSentences ();
 
-	UFUNCTION(BlueprintCallable)
+    UFUNCTION(BlueprintCallable)
     void ClearSentences ();
 
 
-	UFUNCTION(BlueprintCallable, meta = (DeterminesOutputType="SentenceClass"))
+    UFUNCTION(BlueprintCallable, meta = (DeterminesOutputType="SentenceClass"))
     USentence* CreateSentence(TSubclassOf<class USentence> SentenceClass);
 
-	
-	
+    
+    
 };
 
