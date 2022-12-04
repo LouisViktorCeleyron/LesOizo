@@ -13,6 +13,15 @@
 				"CoreUObject",
 				"UMG"
 			]
+		},
+		{
+			"Name": "oizoEditor",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit",
+			"AdditionalDependencies": [
+				"Engine",
+				"UnrealEd"
+			]
 		}
 	],
 	"Plugins": [

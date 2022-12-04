@@ -10,5 +10,6 @@ public class oizoEditorTarget : TargetRules
 		Type = TargetType.Editor;
 
 		ExtraModuleNames.AddRange( new string[] { "oizo" } );
+		ExtraModuleNames.AddRange(new string[] { "oizoEditor"});
 	}
 }

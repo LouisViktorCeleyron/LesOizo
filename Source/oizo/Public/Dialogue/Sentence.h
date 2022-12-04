@@ -7,6 +7,7 @@
 #include "StructsForLocalization.h"
 #include "Sentence.generated.h"
 
+
 UCLASS(BlueprintType,Blueprintable, Abstract,EditInlineNew)
 class OIZO_API USentence : public UObject
 {
@@ -23,17 +24,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
 	TArray<USentence*> NextSentences;
 
-	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FVector2D EditorPosition;
-
 	public:
 	UFUNCTION(BlueprintCallable)
 	void IWannaDie();
 	UFUNCTION(BlueprintCallable)
 	virtual USentence* GetNextSentence(int i = 0);
-	void UpdateSentence(TArray<USentence*> nextSentences, bool isMainCharacter, FVector2D editorPosition);
-	void UpdateTransition(int transitionIndex, USentence* newTransition);
 };
 
 UCLASS(BlueprintType,Blueprintable)
@@ -41,6 +36,7 @@ class UClassicSentence : public USentence
 {
 public:
 	GENERATED_BODY()
+		UClassicSentence();
 	
 };
 

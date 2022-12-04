@@ -1,8 +1,8 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "UObjectIterator.h"
 #include "WidgetInventaireParent.h"
+#include "UObjectIterator.h"
 
 void UWidgetInventaireParent::DestroyStudioBP()
 {
