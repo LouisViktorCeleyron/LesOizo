@@ -19,12 +19,12 @@ UClassicSentence::UClassicSentence()
 
 USentence* USentence::GetNextSentence(int i)
 {
-	return NextSentences[0];
+	return nullptr;
 }
 
 USentence* UChoiceSentence::GetNextSentence(int i)
 {
-	return NextSentences[i];
+	return nullptr;
 }
 
 

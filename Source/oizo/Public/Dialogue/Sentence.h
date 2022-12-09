@@ -15,14 +15,16 @@ class OIZO_API USentence : public UObject
 	GENERATED_BODY()
 	USentence();
 public:
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FString SentenceID;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FStringTableForSentence Content;
+	FText Content;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FStringTableForSentence CharacterName;
+	FText CharacterName;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsMainCharacter;
 	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TArray<USentence*> NextSentences;
+	TArray<FString> NextSentences;
 
 	public:
 	UFUNCTION(BlueprintCallable)

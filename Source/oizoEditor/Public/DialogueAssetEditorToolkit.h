@@ -5,7 +5,11 @@
 #include "CoreMinimal.h"
 #include "DialogueAssetEditorToolkit.h"
 #include "DialogueAsset.h"
+#include "Widgets/Input/SButton.h"
 #include "Toolkits/AssetEditorToolkit.h"
+
+typedef TSharedPtr<FString> FComboItem;
+typedef TSharedPtr<int> FComboItemInt;
 
 class FDialogueAssetEditorToolkit : public FAssetEditorToolkit
 {
@@ -23,9 +27,21 @@ public:
 	FStringTableForSentence GetContent() const;
 	void SetName(FString Name);
 	void SetContent(FStringTableForSentence Content);
+	TArray<FComboItem> options;
+	TArray<FComboItemInt> optionsInt;
+	FComboItem currentItem;
+	FComboItemInt currentItemint;
 
-
+private:
 	UDialogueAsset* Asset;
 	UObject* detailTarget;
+
+	FOnClicked sentenceDetailButton;
+
 private:
+	void DisplayDialogueDetail(const TSharedRef<class FTabManager>& InTabManager);
+	void DisplaySentenceDetail(const TSharedRef<class FTabManager>& InTabManager);
+	TSharedRef<SWidget> MakeWidgetForOption(FComboItemInt i);
+	FText GetComboBoxLabel() const;
+	void ResetOption();
 };

@@ -32,7 +32,7 @@ public :
 	void AddSentence(TSubclassOf<USentence> sentenceClass);
 	UFUNCTION(CallInEditor, BlueprintCallable)
 	void AddClassicSentence();
-	
-	UFUNCTION(CallInEditor)
-	void ChangeSentence();
+
+	UFUNCTION(BlueprintCallable)
+	USentence* GetSentenceFromID(FString ID);
 };
