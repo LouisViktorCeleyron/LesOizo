@@ -81,27 +81,6 @@ void FDialogueAssetEditorToolkit::UnregisterTabSpawners(const TSharedRef<class F
 	InTabManager->UnregisterTabSpawner("DialogueAssetDetailTab");
 }
 
-FString FDialogueAssetEditorToolkit::GetName() const
-{
-	return Asset->dialogueName;
-}
-
-FStringTableForSentence FDialogueAssetEditorToolkit::GetContent() const
-{
-	return Asset->content;
-}
-
-void FDialogueAssetEditorToolkit::SetName(FString Name)
-{
-	Asset->Modify();
-	Asset->dialogueName= Name;
-}
-
-void FDialogueAssetEditorToolkit::SetContent(FStringTableForSentence content)
-{
-	Asset->Modify();
-	Asset->content= content;
-}
 
 void FDialogueAssetEditorToolkit::DisplayDialogueDetail(const TSharedRef<class FTabManager>& InTabManager)
 {
@@ -110,10 +89,7 @@ void FDialogueAssetEditorToolkit::DisplayDialogueDetail(const TSharedRef<class F
 	DetailsViewArgs.NameAreaSettings = FDetailsViewArgs::HideNameArea;
 	TSharedRef<IDetailsView> DetailsView = PropertyEditorModule.CreateDetailView(DetailsViewArgs);
 
-	//Asset->clicked.BindDynamic(this, &FDialogueAssetEditorToolkit::ResetOption);
-
 	DetailsView->SetObjects(TArray<UObject*>{ Asset });
-	//DetailsView->SetObjects(TArray<UObject*>{ Asset->SentencesInDialogues[0] });
 	InTabManager->RegisterTabSpawner("DialogueAssetDetailTab", FOnSpawnTab::CreateLambda([=](const FSpawnTabArgs&)
 		{
 			return SNew(SDockTab)
@@ -128,43 +104,27 @@ void FDialogueAssetEditorToolkit::DisplayDialogueDetail(const TSharedRef<class F
 
 void FDialogueAssetEditorToolkit::DisplaySentenceDetail(const TSharedRef<class FTabManager>& InTabManager)
 {
+	//Init Editor
 	FPropertyEditorModule& PropertyEditorModuleForSentence = FModuleManager::GetModuleChecked<FPropertyEditorModule>("PropertyEditor");
 	FDetailsViewArgs DetailsViewArgsForSentence;
 	DetailsViewArgsForSentence.NameAreaSettings = FDetailsViewArgs::HideNameArea;
 	TSharedRef<IDetailsView> DetailsViewForSentence = PropertyEditorModuleForSentence.CreateDetailView(DetailsViewArgsForSentence);
-
-	detailTarget = Asset->SentencesInDialogues[0];
-	UE_LOG(LogTemp, Warning, TEXT("%s"), *FString("Banana")); //PrintToLog 
-
-	auto comboBoxLambda = [this, DetailsViewForSentence](FComboItemInt newValue, ESelectInfo::Type)
-	{
-		//currentItemint = newValue;
-		////UE_LOG(LogTemp, Warning, TEXT("%s"), *FString::FromInt(index)); //PrintToLog 
-		////UE_LOG(LogTemp, Warning, TEXT("%s"), newValue); //PrintToLog 
-		//UE_LOG(LogTemp, Warning, TEXT("%s"), *FString::FromInt(*newValue)); //PrintToLog 
-
-
-		//detailTarget = Asset->SentencesInDialogues[0];
-
-		////currentItem = newValue;
-		////int index = 0;
-		////options.Find(newValue, index);
-		////detailTarget = Asset->SentencesInDialogues[index];
-
-		//DetailsViewForSentence->SetObjects(TArray<UObject*>{ detailTarget});
-	};
-
-	sentenceDetailButton.BindLambda([this]() 
-		{
-			ResetOption();
-			return FReply::Handled();
-		});
+	
+	//Display
+	detailTarget = Asset->SentencesInDialogues[GenerateIndex()];
 	DetailsViewForSentence->SetObjects(TArray<UObject*>{ detailTarget});
 
-	ResetOption();
-	//currentItem = options[0];
-	currentItemint = optionsInt[0];
+	//Lanbda for button
+	sentenceDetailButton.BindLambda([this, DetailsViewForSentence]()
+		{
+			detailTarget = Asset->SentencesInDialogues[GenerateIndex()];
+			DetailsViewForSentence->SetObjects(TArray<UObject*>{ detailTarget});
+			return FReply::Handled();
 
+		});
+
+
+	//Slate
 	InTabManager->RegisterTabSpawner("SentenceDetailTab", FOnSpawnTab::CreateLambda([=](const FSpawnTabArgs&)
 		{
 			return
@@ -182,17 +142,6 @@ void FDialogueAssetEditorToolkit::DisplaySentenceDetail(const TSharedRef<class F
 					.Text(FText::FromString(FString("Reload")))
 				.OnClicked(sentenceDetailButton)
 				]
-			+ SVerticalBox::Slot().VAlign(VAlign_Top)
-				[
-					SNew(SComboBox<FComboItemInt>)
-					.OptionsSource(&optionsInt)
-					.InitiallySelectedItem(currentItemint)
-					.OnSelectionChanged_Lambda(comboBoxLambda)
-					.OnGenerateWidget(this, &FDialogueAssetEditorToolkit::MakeWidgetForOption)
-					[
-						SNew(STextBlock).Text(this,&FDialogueAssetEditorToolkit::GetComboBoxLabel)
-					]
-				]
 				];
 
 		}))
@@ -200,58 +149,8 @@ void FDialogueAssetEditorToolkit::DisplaySentenceDetail(const TSharedRef<class F
 			.SetGroup(WorkspaceMenuCategory.ToSharedRef());
 }
 
-
-TSharedRef<SWidget> FDialogueAssetEditorToolkit::MakeWidgetForOption(FComboItemInt InOption)
+int FDialogueAssetEditorToolkit::GenerateIndex()
 {
-	return SNew(STextBlock).Text(FText::FromString(FString::FromInt (3)));
-}
-
-FText FDialogueAssetEditorToolkit::GetComboBoxLabel() const
-{
-
-	if (currentItemint.IsValid())
-	{
-		return FText::FromString(FString::FromInt(12));
-	}
-	else
-	{
-		return FText::FromString(FString("Enorme Banane il ya r la "));
-	}
-	/*if (currentItem.IsValid())
-	{
-		return FText::FromString(FString::FromInt(*currentItem));
-	}
-	else
-	{
-		return FText::FromString(FString("Enorme Banane il ya r la "));
-	}*/
-}
-
-void FDialogueAssetEditorToolkit::ResetOption()
-{
-	options.Empty();
-	int index = 0;
-	for (USentence* sentence : Asset->SentencesInDialogues)
-	{
-		//auto banana = MakeShareable(&FString::FromInt(index));
-		auto brgi = FString("jkhfeki");
-		auto banana = MakeShareable(&brgi);
-		//UE_LOG(LogTemp, Warning, TEXT("%s"), banana); //PrintToLog 
-		//options.Add(banana);
-		auto intiti = MakeShareable(&index);
-		optionsInt.Add(intiti);
-		index++;
-	}
-
-	for (auto e : optionsInt)
-	{
-		UE_LOG(LogTemp, Warning, TEXT("%s"), e); //PrintToLog 
-	}
-	/*for (USentence* sentence : Asset->SentencesInDialogues)
-	{
-		auto banana = MakeShareable(&sentence->SentenceID);
-		options.Add(banana);
-
-	}*/
+	return FMath::Min(Asset->sentenceIndex, Asset->SentencesInDialogues.Num() - 1);;
 }
 

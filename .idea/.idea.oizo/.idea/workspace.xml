@@ -9,18 +9,63 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueAsset.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueAsset.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/UI/WidgetInventaireParent.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/UI/WidgetInventaireParent.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizoEditor.Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizoEditor.Target.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enc_temp_folder/3ec25b6d81929f92fdff6a705c483e39/CastlenestBaseUserWidget.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/enc_temp_folder/f1bf4363b4ae2d6282b1128be951a8/Capture3DObject.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/oizo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/oizo.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPAC_NPC_Dialogue_Manager.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPFL_Common.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPFL_EditorFunctions.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPML_CommonActorMacro.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPSC_NPCDialogueReader.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPSC_NPCDialogueReader.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BPSC_NPC_DialogueChoice.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BPSC_NPC_DialogueChoice.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_CameraTransition.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_CameraTransition.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_DA_Character.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_DA_Item.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_DialogueManager.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_DialogueManager.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_FL_UIFunction.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_FlaseBubble.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_InteractiveStuff.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_InteractiveStuff.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_LaunchDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_LaunchDialogue.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_MainOiseau.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_MainOiseau.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_MyDrag.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_MyTriggerBox.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_MyTriggerBox.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NPC.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NPCDialogueLauncher.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NPCDialogueLauncher.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_NPC_Character.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_NPC_Character.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_PC_WorldPlayerController.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_SceneCapture.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_SceneCapture.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_W_NPC_DialogueAnswerChoice.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_W_NPC_DialogueAnswerChoice.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/DT_DialogueExample.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/DialogueTest_-_DialogueTest.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/E_KiwiShaderInstance.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/E_KiwiShaderInstance.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Interractable/BP_BC_BaseInteractableComponent.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Interractable/BP_BC_BaseInteractableComponent.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Interractable/BP_BC_I_LaunchDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Interractable/BP_BC_I_LaunchDialogue.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/RT_Test.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Trash/WBP_DialogueTrash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Trash/WBP_DialogueTrash.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Data/Character/DA_C_Ombrette.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Character/DA_C_Ombrette.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Data/Character/DA_C_Vishna.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/Character/DA_C_Vishna.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/NewDialogueAsset.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Tools/SubClassEditorDialogue/BP_W_DialogueGraph.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/SubClassEditorDialogue/BP_W_DialogueGraph.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Tools/SubClassEditorDialogue/BP_W_NPCSentenceButton.uasset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Tools/SubClassEditorDialogue/WBP_NPCInspector.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/SubClassEditorDialogue/WBP_NPCInspector.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/WBP_Inventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/WBP_Inventory.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/Inventory/WBP_InventoryBase.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/Inventory/WBP_InventoryBase.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_ChangeBaseColorButton.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_ChangeBaseColorButton.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_InventoryButton_Icon.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/SubUIWidget/BP_InventoryButton_Icon.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_HatInventory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WBP_HatInventory.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/UI/WBP_MasterColor.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/UI/WBP_MasterColor.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/maps/villageDemo.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/villageDemo.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/materials/M_UI_RenderTarget.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/materials/M_UI_RenderTarget.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/CastleNestInstance.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/CastleNestInstance.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/ClassicFunctionLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/ClassicFunctionLibrary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueAsset.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/DialogueAsset.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/Sentence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/Sentence.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerController.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/CastlenestPlayerController.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/ClassicFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/ClassicFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueAsset.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/DialogueAsset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/Dialogue/Sentence.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/Private/DialogueAssetEditorToolkit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizoEditor/Private/DialogueAssetEditorToolkit.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/Public/DialogueAssetEditorToolkit.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizoEditor/Public/DialogueAssetEditorToolkit.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,8 +165,6 @@
     <setting file="file://$PROJECT_DIR$/../../../Engine/UE_4.23/Engine/Source/UE4Game.Target.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/oizoEditor/DailogueAssetAction.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/oizoEditor/DailogueAssetAction.h" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../ProjectK_MainFolder/[1]UE4_Project/ProjectK/Source/ProjectK.Target.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/../../ProjectK_MainFolder/[1]UE4_Project/ProjectK/Source/ProjectK/ProjectK.Build.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -601,6 +644,10 @@
       <workItem from="1669718956107" duration="5841000" />
       <workItem from="1669800647146" duration="628000" />
       <workItem from="1670077644033" duration="2006000" />
+      <workItem from="1672494594406" duration="1111000" />
+      <workItem from="1672496159749" duration="3885000" />
+      <workItem from="1672507709156" duration="879000" />
+      <workItem from="1672511285334" duration="261000" />
     </task>
     <servers />
   </component>

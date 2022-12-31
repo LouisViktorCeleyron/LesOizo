@@ -4,7 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "Object.h"
-#include "StructsForLocalization.h"
+#include "CastlenestPlayerController.h"
+#include "CastleNestInstance.h"
 #include "Sentence.generated.h"
 
 
@@ -23,32 +24,104 @@ public:
 	FText CharacterName;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsMainCharacter;
-	UPROPERTY(EditAnywhere, BlueprintReadOnly)
-	TArray<FString> NextSentences;
 
 	public:
 	UFUNCTION(BlueprintCallable)
 	void IWannaDie();
 	UFUNCTION(BlueprintCallable)
-	virtual USentence* GetNextSentence(int i = 0);
+	virtual FString GetNextSentenceID();
+	
+	UFUNCTION(BlueprintCallable)
+	virtual void ActionCalledWithSentence(ACastlenestPlayerController* playerController)
+	{
+	}
 };
 
 UCLASS(BlueprintType,Blueprintable)
 class UClassicSentence : public USentence
 {
+
 public:
 	GENERATED_BODY()
 		UClassicSentence();
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	FString NextSentence;
+	
+	virtual FString GetNextSentenceID() override;
+
+};
+
+UCLASS(BlueprintType, Blueprintable)
+class USetSwitchSentence : public USentence
+{
+
+public:
+	GENERATED_BODY()
+public:
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString NextSentence;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString SwitchID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FSwitch SwitchValue;
+	
+	virtual FString GetNextSentenceID() override;
+	virtual void ActionCalledWithSentence(ACastlenestPlayerController* playerController) override;
+
+};
+
+
+UCLASS(BlueprintType, Blueprintable)
+class UCheckSwitch : public USentence
+{
+
+public:
+	GENERATED_BODY()
+public:
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString SwitchID;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString NextSentenceIfTrue;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+		FString NextSentenceIfFalse;
+	
+	virtual FString GetNextSentenceID() override;
+
+};
+
+USTRUCT(BlueprintType)
+struct FAnswerNextSentenceDuo 
+{
+	GENERATED_BODY()
+public:
+	UPROPERTY(EditAnywhere,BlueprintReadOnly)
+	FString NextSentence;
+	UPROPERTY(EditAnywhere,BlueprintReadOnly)
+	FText AnswerContent;
 	
 };
 
 UCLASS(BlueprintType,Blueprintable)
 class UChoiceSentence : public USentence
 {
-public:
 	GENERATED_BODY()
+public:
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int NextSentencesIndex;
+	UPROPERTY(EditAnywhere)
+		FAnswerNextSentenceDuo NextSentencesAndAnswer[3];
 public: 
-	virtual USentence* GetNextSentence(int i) override;
+	virtual FString GetNextSentenceID() override;
+	virtual void ActionCalledWithSentence(ACastlenestPlayerController* playerController) override;
 
-	
+	UFUNCTION(BlueprintCallable)
+	FAnswerNextSentenceDuo GetAnswerNextSentenceDuoAtIndex(int index);
 };

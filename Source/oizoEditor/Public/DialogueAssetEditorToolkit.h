@@ -8,8 +8,6 @@
 #include "Widgets/Input/SButton.h"
 #include "Toolkits/AssetEditorToolkit.h"
 
-typedef TSharedPtr<FString> FComboItem;
-typedef TSharedPtr<int> FComboItemInt;
 
 class FDialogueAssetEditorToolkit : public FAssetEditorToolkit
 {
@@ -23,14 +21,7 @@ public:
 	FText GetBaseToolkitName() const override { return INVTEXT("Dialogue Asset Editor"); }
 	FString GetWorldCentricTabPrefix() const override { return "Content"; }
 	FLinearColor GetWorldCentricTabColorScale() const override { return {}; }
-	FString GetName() const;
-	FStringTableForSentence GetContent() const;
-	void SetName(FString Name);
-	void SetContent(FStringTableForSentence Content);
-	TArray<FComboItem> options;
-	TArray<FComboItemInt> optionsInt;
-	FComboItem currentItem;
-	FComboItemInt currentItemint;
+
 
 private:
 	UDialogueAsset* Asset;
@@ -41,7 +32,5 @@ private:
 private:
 	void DisplayDialogueDetail(const TSharedRef<class FTabManager>& InTabManager);
 	void DisplaySentenceDetail(const TSharedRef<class FTabManager>& InTabManager);
-	TSharedRef<SWidget> MakeWidgetForOption(FComboItemInt i);
-	FText GetComboBoxLabel() const;
-	void ResetOption();
+	int GenerateIndex();
 };

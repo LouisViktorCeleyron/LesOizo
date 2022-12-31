@@ -15,3 +15,16 @@ void UCastleNestInstance::RemoveLastLetterOfPlayerName()
 		PlayerName.RemoveAt(PlayerName.Len()-1);
 	}
 }
+
+bool UCastleNestInstance::GetSwitchValue(FString ID)
+{
+	return Switchs.Contains(ID)? Switchs.Find(ID)->isTrue:false;
+}
+
+void UCastleNestInstance::SetSwitchValue(FString ID, FSwitch newValue)
+{
+	if (Switchs.Contains(ID))
+	{
+		Switchs.Add(ID, newValue);
+	}
+}

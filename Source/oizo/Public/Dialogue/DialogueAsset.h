@@ -11,7 +11,12 @@
 /**
  * 
  */
-DECLARE_DYNAMIC_DELEGATE(FOnButtonDelegate);
+UENUM()
+enum class EBranchEnum : uint8
+{
+	SentenceFound,
+	SentenceNull
+};
 
 UCLASS(BlueprintType)
 class OIZO_API UDialogueAsset : public UObject
@@ -27,12 +32,21 @@ public:
 		TArray<USentence*> SentencesInDialogues;
 	UPROPERTY(BlueprintReadOnly, EditAnywhere)
 		int sentenceIndex;
-	FOnButtonDelegate clicked;
 public :
-	void AddSentence(TSubclassOf<USentence> sentenceClass);
+		void AddSentence(TSubclassOf<USentence> sentenceClass);
 	UFUNCTION(CallInEditor, BlueprintCallable)
-	void AddClassicSentence();
+		void AddClassicSentence();
+	UFUNCTION(CallInEditor, BlueprintCallable)
+		void AddChoiceSentence();
+	UFUNCTION(CallInEditor, BlueprintCallable)
+		void AddCheckSwitchSentence();
+	UFUNCTION(CallInEditor, BlueprintCallable)
+		void AddSetSwitchSentence();
 
 	UFUNCTION(BlueprintCallable)
-	USentence* GetSentenceFromID(FString ID);
+	USentence* GetSentenceFromID(FString ID, bool& found);
+
+	UFUNCTION(BlueprintCallable, Meta = (ExpandEnumAsExecs = "Branches"))
+	USentence* GetNextSentenceFrom(USentence* sentence, EBranchEnum & Branches);
+
 };

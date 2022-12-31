@@ -8,6 +8,22 @@
 
 #include "CastleNestInstance.generated.h"
 
+USTRUCT(BlueprintType)
+struct FSwitch
+{
+	GENERATED_BODY()
+public:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	bool isTrue;
+
+};
+
+USTRUCT(BlueprintType)
+struct FBanana : public FSwitch
+{
+	GENERATED_BODY()
+
+};
 /**
  * 
  */
@@ -17,11 +33,13 @@ class OIZO_API UCastleNestInstance : public UGameInstance
 	GENERATED_BODY()
 	public:
 	UPROPERTY(BlueprintReadWrite)
-	FString PlayerName;
+		FString PlayerName;
 	
 	UPROPERTY(BlueprintReadWrite)
-	FString Pronoun;
+		FString Pronoun;
 
+	UPROPERTY(EditAnywhere)
+		TMap<FString,FSwitch> Switchs;
 
 	UPROPERTY(BlueprintReadWrite)
 	bool MEGATEMPORAIRE_IsNameValidated;
@@ -38,4 +56,11 @@ class OIZO_API UCastleNestInstance : public UGameInstance
 	
 	UFUNCTION(BlueprintCallable)
     void RemoveLastLetterOfPlayerName();
+
+
+	UFUNCTION(BlueprintCallable)
+		bool GetSwitchValue(FString ID);
+
+	UFUNCTION(BlueprintCallable)
+		void SetSwitchValue(FString ID, FSwitch newValue);
 };

@@ -10,7 +10,10 @@
 
 /**
  * 
- */
+
+*/
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FCalledToCreateDialogueChoice);
+
 UCLASS(Blueprintable,BlueprintType)
 class OIZO_API ACastlenestPlayerController : public APlayerController
 {
@@ -37,5 +40,6 @@ class OIZO_API ACastlenestPlayerController : public APlayerController
 
 	UPROPERTY(BlueprintReadOnly,EditAnywhere)
 	TSubclassOf<ACapture3DObject> captureObjectClass;
-
+	UPROPERTY(BlueprintAssignable,BlueprintCallable)
+	FCalledToCreateDialogueChoice callToCreateDialogueChoice;
 };
