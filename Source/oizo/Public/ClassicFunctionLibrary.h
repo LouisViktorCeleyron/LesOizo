@@ -10,6 +10,12 @@
 #include "CastleNestInstance.h"
 #include "ClassicFunctionLibrary.generated.h"
 
+UENUM()
+enum class ETrueFalseEnum : uint8
+{
+	TrueSwitch,
+	FalseSwitch
+};
 
 /**
  * 
@@ -19,9 +25,12 @@ class OIZO_API UClassicFunctionLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 
+	
 public: 
 
 	UFUNCTION(BlueprintCallable)
 		static UCastleNestInstance* GetCastleNestInstance();
+	UFUNCTION(BlueprintCallable, Meta = (ExpandEnumAsExecs = "Branches"))
+		static void ReadSwitch(FString switchID, ETrueFalseEnum & Branches);
 
 };
