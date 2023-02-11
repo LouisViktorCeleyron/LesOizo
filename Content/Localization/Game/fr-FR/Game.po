@@ -1,0 +1,33 @@
+﻿# Game French (France) translation.
+# Copyright 1998-2019 Epic Games, Inc. All Rights Reserved.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Game\n"
+"POT-Creation-Date: 2023-01-15 20:14\n"
+"PO-Revision-Date: 2023-01-15 20:14\n"
+"Language-Team: \n"
+"Language: fr-FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. Key:	Fruits/Banana
+#. SourceLocation:	/Game/StringTables/Dialogue/ST_DialogueTest.ST_DialogueTest
+#. InfoMetaData:	"Esp" : "Banana es un fruito commo la patata"
+#. InfoMetaData:	"Fr" : "La banane est un fruit comme la pomme de terre"
+#: /Game/StringTables/Dialogue/ST_DialogueTest.ST_DialogueTest
+msgctxt "ST_DialogueTest,Fruits/Banana"
+msgid "Banana is a fruit, like the potatoes"
+msgstr ""
+
+#. Key:	Fruits/Strawberry
+#. SourceLocation:	/Game/StringTables/Dialogue/ST_DialogueTest.ST_DialogueTest
+#. InfoMetaData:	"Esp" : "Fraisa no es un fruito no commo la patata"
+#. InfoMetaData:	"Fr" : "La fraise n'est pas un fruit pas comme la pomme de terre"
+#: /Game/StringTables/Dialogue/ST_DialogueTest.ST_DialogueTest
+msgctxt "ST_DialogueTest,Fruits/Strawberry"
+msgid "Strawberry is not a fruits unlike the potatoes"
+msgstr ""
+

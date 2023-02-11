@@ -13,6 +13,7 @@ struct FSwitch
 {
 	GENERATED_BODY()
 public:
+
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	bool isTrue;
 
