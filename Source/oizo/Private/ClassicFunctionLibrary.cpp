@@ -12,19 +12,3 @@ UCastleNestInstance* UClassicFunctionLibrary::GetCastleNestInstance()
 {
 	return Cast<UCastleNestInstance>(UGameplayStatics::GetGameInstance(UGameplayStatics::GetPlayerController(GEngine->GameViewport->GetWorld(), 0)));
 }
-
-void UClassicFunctionLibrary::ReadSwitch(FString switchID, ETrueFalseEnum & branches)
-{
-	if(	UClassicFunctionLibrary::GetCastleNestInstance()->GetSwitchValue(switchID))
-	{
-		branches =ETrueFalseEnum::TrueSwitch;
-		return;
-	}
-	else
-	{
-		branches =ETrueFalseEnum::FalseSwitch;
-		return;
-		
-	};
-
-}

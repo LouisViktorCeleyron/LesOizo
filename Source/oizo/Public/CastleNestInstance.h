@@ -4,30 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "Engine/GameInstance.h"
+#include "SwitchStructs.h"
 #include "Materials/MaterialInstance.h"
 
 #include "CastleNestInstance.generated.h"
 
-USTRUCT(BlueprintType)
-struct FSwitch
-{
-	GENERATED_BODY()
-public:
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-	bool isTrue;
-
-};
-
-USTRUCT(BlueprintType)
-struct FBanana : public FSwitch
-{
-	GENERATED_BODY()
-
-};
-/**
- * 
- */
 UCLASS(BlueprintType)
 class OIZO_API UCastleNestInstance : public UGameInstance
 {

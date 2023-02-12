@@ -56,6 +56,7 @@ FString UCheckSwitch::GetNextSentenceID()
 		return _instanceSwitchRef[SwitchID].isTrue?NextSentenceIfTrue:NextSentenceIfFalse;
 
 	}
+
 	return USentence::GetNextSentenceID();
 }
 

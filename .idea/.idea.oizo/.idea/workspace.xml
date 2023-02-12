@@ -9,16 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Source/oizo/Public/Other/SwitchStructs.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEditor.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEditor.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/Localization/Game_Gather.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/Localization/Game_Gather.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Data/StringTables/ST_Characters.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Data/StringTables/ST_Characters.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Localization/Game/Game.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Localization/Game/Game.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Localization/Game/Game.manifest" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Localization/Game/Game.manifest" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Localization/Game/en/Game.archive" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Localization/Game/en/Game.archive" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Localization/Game/fr-FR/Game.archive" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Localization/Game/fr-FR/Game.archive" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Interractable/BP_BC_I_LaunchDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Interractable/BP_BC_I_LaunchDialogue.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/NewBlueprintPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/NewBlueprintPlayerController.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/maps/villageDemo.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/villageDemo.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Private/ClassicFunctionLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/ClassicFunctionLibrary.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/Sentence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/Sentence.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/oizo/Public/ClassicFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/ClassicFunctionLibrary.h" afterDir="false" />
     </list>
@@ -608,6 +606,8 @@
       <workItem from="1672690373264" duration="6661000" />
       <workItem from="1673290479868" duration="1988000" />
       <workItem from="1673811092925" duration="767000" />
+      <workItem from="1676137517333" duration="3400000" />
+      <workItem from="1676226221086" duration="6601000" />
     </task>
     <servers />
   </component>
