@@ -9,16 +9,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7312cc3a-8c48-46c5-bcfa-dfcb5dac00ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/oizo/Public/Other/SwitchStructs.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Interractable/BP_BC_I_LaunchDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Interractable/BP_BC_I_LaunchDialogue.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/NewBlueprintPlayerController.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/NewBlueprintPlayerController.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/maps/villageDemo.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/villageDemo.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/ClassicFunctionLibrary.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/ClassicFunctionLibrary.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/Sentence.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Private/Dialogue/Sentence.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/CastleNestInstance.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizo/Public/ClassicFunctionLibrary.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizo/Public/ClassicFunctionLibrary.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Trash/BP_DialogueTrash.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Trash/BP_DialogueTrash.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/Tabs/TabToolPanel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizoEditor/Tabs/TabToolPanel.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,22 +178,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.keymap",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Laoil-Viktor-Louis\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Laoil-Viktor-Louis\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Laoil-Viktor-Louis\\AppData\\Local\\Symbols\\src&quot;
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Laoil-Viktor-Louis\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Laoil-Viktor-Louis\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Laoil-Viktor-Louis\\AppData\\Local\\Symbols\\src"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="C++ Project.oizo">
     <configuration name="UE4" type="CppProject" factoryName="C++ Project">
       <configuration_1>
@@ -608,6 +603,8 @@
       <workItem from="1673811092925" duration="767000" />
       <workItem from="1676137517333" duration="3400000" />
       <workItem from="1676226221086" duration="6601000" />
+      <workItem from="1678230934253" duration="736000" />
+      <workItem from="1678375681052" duration="1896000" />
     </task>
     <servers />
   </component>

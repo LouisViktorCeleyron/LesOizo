@@ -69,6 +69,12 @@ void TabToolPanel::Construct(const FArguments& InArgs)
                                     banana
                                 ]
                         ]
+                        + SVerticalBox::Slot().VAlign(VAlign_Top)
+                        [
+                            SNew(SButton)
+                            .Text(FString("Banana"))
+                            .OnClicked()
+                            ]
                         
                     ]
 
