@@ -1,5 +1,6 @@
 #include "MenuEditor.h"
 #include "OizoEditor/IOizoEditorModule.h"
+#include "EditorStyleSet.h"
 #include "oizoEditor.h"
 #define LOCTEXT_NAMESPACE "MenuTool"
 
@@ -26,6 +27,7 @@ public:
 public:
     TSharedPtr<FUICommandInfo> MenuCommand1;
 };
+
 
 void MenuEditor::MapCommands()
 {
@@ -60,7 +62,7 @@ void MenuEditor::MakeMenuEntry(FMenuBuilder& menuBuilder)
 
 void MenuEditor::MenuCommand1()
 {
-    UE_LOG(LogClass, Log, TEXT("clicked MenuCommand1"));
+    //UE_LOG(LogClass, Log, TEXT("clicked MenuCommand1"));
 }
 
 #undef LOCTEXT_NAMESPACE

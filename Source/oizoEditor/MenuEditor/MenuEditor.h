@@ -1,4 +1,5 @@
 #pragma once
+#include "GraphEditor.h"
 #include "OizoEditor/IOizoEditorModule.h"
 
 class MenuEditor : public IExampleModuleListenerInterface, public TSharedFromThis<MenuEditor>
@@ -18,5 +19,6 @@ protected:
 
     // UI Command functions
     void MenuCommand1();
+
 };
 

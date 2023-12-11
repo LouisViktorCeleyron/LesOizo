@@ -35,5 +35,5 @@ uint32 FDailogueAssetAction::GetCategories()
 
 void FDailogueAssetAction::OpenAssetEditor(const TArray<UObject*>& InObjects, TSharedPtr<class IToolkitHost> EditWithinLevelEditor)
 {
-	MakeShared<FDialogueAssetEditorToolkit>()->InitEditor(InObjects);
+	//MakeShared<FDialogueAssetEditorToolkit>()->InitEditor(InObjects);
 }

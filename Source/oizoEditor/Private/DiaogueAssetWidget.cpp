@@ -1,7 +1,8 @@
+/*
 #include "DiaogueAssetWidget.h"
 #include "Editor.h"
 #include "Editor/EditorEngine.h"
-
+/*
 void SDialogueAssetWidget::Construct(const FArguments& InArgs)
 {
     DialogueContent = InArgs._DialogueContent;
@@ -35,7 +36,7 @@ FVector2D SDialogueAssetWidget::ComputeDesiredSize(float) const
 FReply SDialogueAssetWidget::OnMouseButtonDown(const FGeometry& AllottedGeometry, const FPointerEvent& MouseEvent)
 {
    /* if (GEditor && GEditor->CanTransact() && ensure(!GIsTransacting))
-        GEditor->BeginTransaction(TEXT(""), INVTEXT("Edit Normal Distribution"), nullptr);*/
+        GEditor->BeginTransaction(TEXT(""), INVTEXT("Edit Normal Distribution"), nullptr);
     return FReply::Handled().CaptureMouse(SharedThis(this));
 }
 
@@ -60,5 +61,8 @@ FTransform2D SDialogueAssetWidget::GetPointsTransform(const FGeometry& AllottedG
     const double Margin = 0.05 * AllottedGeometry.GetLocalSize().GetMin();
     const FScale2D Scale((AllottedGeometry.GetLocalSize() - 2.0 * Margin) * FVector2D(1.0, -1.0));
     const FVector2D Translation(Margin, AllottedGeometry.GetLocalSize().Y - Margin);
+
+    
     return FTransform2D(Scale, Translation);
 }
+*/

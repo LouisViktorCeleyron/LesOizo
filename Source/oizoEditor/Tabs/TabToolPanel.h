@@ -1,6 +1,5 @@
-#include "SDockTab.h"
-#include "SDockableTab.h"
-#include "SDockTabStack.h"
+#include "Widgets/Docking/SDockTab.h"
+//#include "Widgets/Docking/SDockTabStack.h"
 #include "SlateApplication.h"
 #include "TabTool.h"
 
@@ -20,4 +19,5 @@ private:
     void DebugLogWhatIJustWriten(const FText& text, ETextCommit::Type type);
     TSharedRef<class SWidget> JaiRiencompris(FMenuBarBuilder& menuBuilder);
     void FillMenu1Entries(FMenuBuilder& MenuBuilder);
+    void CreateGraphEditorWidget(UEdGraph* InGraph);
 };

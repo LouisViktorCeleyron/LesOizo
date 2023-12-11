@@ -8,7 +8,7 @@
 #include "PropertyEditorModule.h"
 #include "Modules/ModuleManager.h"
 
-
+/*
 void FDialogueAssetEditorToolkit::InitEditor(const TArray<UObject*>& InObjects)
 {
 
@@ -69,7 +69,7 @@ void FDialogueAssetEditorToolkit::RegisterTabSpawners(const TSharedRef<class FTa
 		}))
 		.SetDisplayName(INVTEXT("DialogueContent"))
 			.SetGroup(WorkspaceMenuCategory.ToSharedRef());*/
-
+/*
 		
 }
 
@@ -154,3 +154,4 @@ int FDialogueAssetEditorToolkit::GenerateIndex()
 	return FMath::Min(Asset->sentenceIndex, Asset->SentencesInDialogues.Num() - 1);;
 }
 
+*/

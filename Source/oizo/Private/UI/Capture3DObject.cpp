@@ -15,8 +15,8 @@ ACapture3DObject::ACapture3DObject()
 
 	Capture = CreateDefaultSubobject<USceneCaptureComponent2D>(TEXT("CaptureBoard"));
 	Capture->SetupAttachment(Root);
-	Capture->RelativeLocation = FVector(-170,0,65);
-	Capture->RelativeRotation = FRotator(0,-20,0);
+	Capture->SetRelativeLocation(FVector(-170, 0, 65));
+	Capture->SetRelativeRotation(FRotator(0,-20,0));
 	auto _myView = FMinimalViewInfo();
 	_myView.FOV = 22;
 	_myView.ProjectionMode = ECameraProjectionMode::Perspective;

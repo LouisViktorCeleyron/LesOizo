@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "Kismet/BlueprintFunctionLibrary.h"
 #include "StructsForLocalization.h"
-#include "AssetRegistry/Public/AssetRegistryModule.h"
+#include "AssetRegistryModule.h"
 #include "LocalizationEditorUtilities.generated.h"
 /**
  * 

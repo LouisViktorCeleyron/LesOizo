@@ -85,7 +85,7 @@ TSharedRef<SDockTab> FJEVEUXTESTERModule::OnSpawnPluginTab(const FSpawnTabArgs& 
 
 void FJEVEUXTESTERModule::PluginButtonClicked()
 {
-	FGlobalTabmanager::Get()->InvokeTab(JEVEUXTESTERTabName);
+	/*FGlobalTabmanager::Get()->InvokeTab(JEVEUXTESTERTabName);*/
 }
 
 void FJEVEUXTESTERModule::AddMenuExtension(FMenuBuilder& Builder)

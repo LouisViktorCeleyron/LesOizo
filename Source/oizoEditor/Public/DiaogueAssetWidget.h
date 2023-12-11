@@ -11,6 +11,7 @@
 DECLARE_DELEGATE_OneParam(FOnMeanChanged, float /*NewMean*/)
 DECLARE_DELEGATE_OneParam(FOnStandardDeviationChanged, float /*NewStandardDeviation*/)
 
+/*
 class SDialogueAssetWidget : public SCompoundWidget
 {
 public:
@@ -36,3 +37,4 @@ private:
 
 	FTransform2D GetPointsTransform(const FGeometry& AllottedGeometry) const;
 };
+*/

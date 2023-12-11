@@ -1,5 +1,5 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
+/*
 #pragma once
 
 #include "CoreMinimal.h"
@@ -8,7 +8,7 @@
 #include "Widgets/Input/SButton.h"
 #include "Toolkits/AssetEditorToolkit.h"
 
-
+/*
 class FDialogueAssetEditorToolkit : public FAssetEditorToolkit
 {
 public:
@@ -34,3 +34,4 @@ private:
 	void DisplaySentenceDetail(const TSharedRef<class FTabManager>& InTabManager);
 	int GenerateIndex();
 };
+*/
