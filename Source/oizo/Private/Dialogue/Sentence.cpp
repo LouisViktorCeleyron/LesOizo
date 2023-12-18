@@ -11,7 +11,8 @@ USentence::USentence()
 
 void USentence::IWannaDie()
 {
-	this->ConditionalBeginDestroy();
+	this->ConditionalBeginDestroy(); 
+
 }
 
 UClassicSentence::UClassicSentence()

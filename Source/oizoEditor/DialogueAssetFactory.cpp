@@ -14,7 +14,7 @@ UDialogueAssetFactory::UDialogueAssetFactory()
 UObject* UDialogueAssetFactory::FactoryCreateNew(UClass* Class, UObject* InParent, FName Name, EObjectFlags Flags,
                                                  UObject* Context, FFeedbackContext* Warn)
 {
-	return NewObject<UDialogueAsset>(InParent, Class, Name, Flags, Context);
+	return NewObject<UDialogueAsset>(InParent, Class, Name, Flags, Context); 
 }
 
 

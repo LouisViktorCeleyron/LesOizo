@@ -20,6 +20,7 @@ FText FDailogueAssetAction::GetName() const
 
 UClass* FDailogueAssetAction::GetSupportedClass() const
 {
+	return nullptr;
 	return UDialogueAsset::StaticClass();
 }
 
