@@ -34,4 +34,4 @@ private:
 	void DisplaySentenceDetail(const TSharedRef<class FTabManager>& InTabManager);
 	int GenerateIndex();
 };
-*/
+*/ 

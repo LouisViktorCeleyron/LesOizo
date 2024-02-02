@@ -23,11 +23,5 @@
 				"UnrealEd"
 			]
 		}
-	],
-	"Plugins": [
-		{
-			"Name": "RiderSourceCodeAccess",
-			"Enabled": true
-		}
 	]
 }

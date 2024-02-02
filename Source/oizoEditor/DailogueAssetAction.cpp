@@ -20,7 +20,6 @@ FText FDailogueAssetAction::GetName() const
 
 UClass* FDailogueAssetAction::GetSupportedClass() const
 {
-	return nullptr;
 	return UDialogueAsset::StaticClass();
 }
 
@@ -34,7 +33,7 @@ uint32 FDailogueAssetAction::GetCategories()
 	return EAssetTypeCategories::Misc;
 }
 
-void FDailogueAssetAction::OpenAssetEditor(const TArray<UObject*>& InObjects, TSharedPtr<class IToolkitHost> EditWithinLevelEditor)
-{
-	//MakeShared<FDialogueAssetEditorToolkit>()->InitEditor(InObjects);
-}
+//void FDailogueAssetAction::OpenAssetEditor(const TArray<UObject*>& InObjects, TSharedPtr<class IToolkitHost> EditWithinLevelEditor)
+//{
+//	//MakeShared<FDialogueAssetEditorToolkit>()->InitEditor(InObjects);
+//}
