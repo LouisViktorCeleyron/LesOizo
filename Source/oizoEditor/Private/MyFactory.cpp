@@ -13,7 +13,8 @@ UMyFactory::UMyFactory()
 UObject* UMyFactory::FactoryCreateNew(UClass* Class, UObject* InParent, FName Name, EObjectFlags Flags,
                                                  UObject* Context, FFeedbackContext* Warn)
 {
-	return NewObject<UDialogueAsset>(InParent, Class, Name, Flags, Context); 
+	return nullptr;
+	//return NewObject<UDialogueAsset>(InParent, Class, Name, Flags, Context); 
 }
 
 

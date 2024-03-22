@@ -7,17 +7,11 @@
     <projectFile>Intermediate/ProjectFiles/UE5.vcxproj</projectFile>
     <projectFile>Intermediate/ProjectFiles/oizo.vcxproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6a4939f-16e6-4599-a565-ec065f5a0b78" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.oizo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Tools/BP_U_LoadDialogue.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Tools/BP_U_LoadDialogue.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/maps/villageDemo.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/maps/villageDemo.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/quests/DLG_Milsa.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/quests/DLG_Milsa.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/DailogueAssetAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizoEditor/DailogueAssetAction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/DailogueAssetAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizoEditor/DailogueAssetAction.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/oizoEditor/Public/DialogueAssetEditorToolkit.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/oizoEditor/Public/DialogueAssetEditorToolkit.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oizo.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/oizo.uproject" afterDir="false" />
-    </list>
+    <list default="true" id="e6a4939f-16e6-4599-a565-ec065f5a0b78" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +24,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2XDmQjzwRFtIaWYQHrckGdE0UyJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -38,9 +35,15 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;C++ Project.oizo.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -50,6 +53,7 @@
         <option name="CONFIGURATION" value="DebugGame Editor" />
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -60,6 +64,7 @@
         <option name="CONFIGURATION" value="Shipping" />
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -70,6 +75,7 @@
         <option name="CONFIGURATION" value="DebugGame" />
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -80,6 +86,7 @@
         <option name="CONFIGURATION" value="Development Editor" />
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -90,6 +97,7 @@
         <option name="CONFIGURATION" value="Development" />
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/UE5.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -106,6 +114,7 @@
         <option name="CONFIGURATION" value="DebugGame Editor" />
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/oizo.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -116,6 +125,7 @@
         <option name="CONFIGURATION" value="Shipping" />
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/oizo.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -126,6 +136,7 @@
         <option name="CONFIGURATION" value="DebugGame" />
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/oizo.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -136,6 +147,7 @@
         <option name="CONFIGURATION" value="Development Editor" />
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/oizo.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -146,6 +158,7 @@
         <option name="CONFIGURATION" value="Development" />
         <option name="PLATFORM" value="Win64" />
         <option name="PROJECT_FILE_PATH" value="$PROJECT_DIR$/Intermediate/ProjectFiles/oizo.vcxproj" />
+        <option name="CURRENT_LAUNCH_PROFILE" value="Local" />
         <option name="EXE_PATH" value="$(LocalDebuggerCommand)" />
         <option name="PROGRAM_PARAMETERS" value="$(LocalDebuggerCommandArguments)" />
         <option name="WORKING_DIRECTORY" value="$(LocalDebuggerWorkingDirectory)" />
@@ -223,6 +236,8 @@
       <workItem from="1699901901845" duration="604000" />
       <workItem from="1705595113977" duration="305000" />
       <workItem from="1705618183980" duration="1873000" />
+      <workItem from="1707768352753" duration="661000" />
+      <workItem from="1707850950214" duration="599000" />
     </task>
     <servers />
   </component>
